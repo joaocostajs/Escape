@@ -1,0 +1,168 @@
+.mark9own{
+	padding-top: 5vw;
+	padding-right: 5vw;
+	padding-left: 5vw;
+
+	img{
+		margin-top:2rem;
+
+		width:100%;
+		padding-right:1em;
+		height:auto;
+	}
+
+	ul{
+		margin-top:0.5em;
+		font-family:'montserratlight';
+		
+	}
+
+	p{
+		margin: 0;
+		padding-top:1em;
+		font-size: 1.1em;
+		font-family: 'montserratlight';
+
+		&.processed{
+			margin-top:-1.3em;
+			text-align:center;
+			margin-bottom:1.5em;
+		}
+		&.img-fullwidth{
+			margin:0px;
+			margin-top:1em;
+			padding:0px!important;
+			width:100%!important;
+			img{
+				padding:0px;
+				margin:0px;
+			}
+		}
+		&.img-gallery{
+			margin:0px;
+			border:5px solid transparent;
+
+
+			padding:0px!important;
+			float:left;
+			width:33%;
+			height:auto;
+			overflow:hidden;
+			text-align:center;
+			img{
+				width:auto;
+				height:150px;
+				padding:0px;
+				margin:0px;
+			}
+		}
+	}
+
+	strong{
+		font-family:'montserratbold';
+		margin-bottom:0.5em;
+	}
+
+	h1{
+		font-family:'montserratbold';
+		margin-top:1.3em;
+		margin-left:8vw;
+
+
+	}
+
+	h2{
+		font-family:'montserratregular'!important;
+		font-style: italic;
+		margin-top:1.3em;
+		margin-left:8vw;
+
+
+		font-size:1.8em;
+		font-weight: normal;
+	}
+
+	h3{
+		margin-top:1.3em;
+		margin-left:8vw;
+
+
+		font-family: 'montserratbold';
+	}
+
+	.fifty-fifty{
+	position:relative;
+    float: left;
+    width: 50%;
+	overflow:hidden;
+	height:100vh;
+	margin-top:1.5em;
+	margin-bottom:2em;
+
+
+		.daimg{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:100%;
+			background: no-repeat center center;
+			background-size:cover;
+		}
+
+		.daquote{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:100%;
+			display:table;
+			background-color:#F05722;
+			padding:3.4em;
+
+
+			p{
+				padding:0px;
+				margin:0px;
+				font-family: 'montserratlight';
+				font-style:italic;
+				font-size:2.1em;
+				display:table-cell;
+				vertical-align: middle;
+  				text-align: center;
+  				color:#fff;
+				strong{
+					font-family:'montserratbold';
+				}
+			}
+
+		}
+	}
+
+}
+
+.mark9own-reset{
+	p, h1, h2, h3, h4, h5, h6, a, code, blockquote, ul, li, strong, em{
+		font-family:inherit!important;
+		font-size:inherit!important;
+		color:inherit!important;
+		padding:0px!important;
+		margin:0px!important;
+		margin-bottom:0.3rem!important;
+		letter-spacing:normal!important;
+		font-weight:normal!important;
+		font-style: normal!important;
+	}
+	img{
+		display:none;
+	}
+}
+
+.movel .mark9own{
+	p{
+		width: 100%;
+		margin:0;
+		padding:6vw;
+		text-align: justify;
+	}
+}

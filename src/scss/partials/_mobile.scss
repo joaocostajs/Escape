@@ -1,0 +1,422 @@
+.movel{
+
+  .footer{
+    font-size:0.7em;
+  }
+  .cta{
+    position: absolute;
+    text-align: center;
+    z-index: 3000;
+    width: 100%;
+
+
+  #button{
+  border-radius: 8px;
+  background-color: white;
+  color:rgba(51,51,51,0.7);
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+  position: relative;
+  bottom: 100px;
+  font-size: 1.5em;
+  font-family: "bebas regular";
+  font-weight:400;
+  letter-spacing: 2px;
+  padding: 8px 15px 5px 15px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+  transition: all .3s ease-in-out;
+  }
+  #button:hover{
+    box-shadow: 0px 0px 30px rgba(0,0,0,.3);
+    color:rgba(51,51,51,1);
+  }
+  }
+  &.home{
+
+    #googlemaps{
+    	.map{
+    		background-size:auto 100%;
+    		background-position: 30% center;
+    	}
+    }
+
+    .header{
+      height:100vh;
+
+      .davids{
+        height:100%;
+        width:100%;
+        background-color:$dark-red-color;
+        video{
+          margin-top:5em;
+          height:70%;
+
+          right: auto;
+    	    left:-50%;
+        }
+        .opentext{
+          margin-top:5em;
+
+          width:100%;
+          overflow:hidden;
+          position:absolute;
+          top:auto;
+          top:calc(75% - 44vw);
+
+          right:1em;
+          height:auto;
+          h1{
+            font-size:20vw;
+          }
+          h5{
+            font-size:3vw;
+          }
+        }
+      }
+    }
+
+    #about-us{
+      padding-top:3em;
+      padding-bottom:18em;
+      .big-titles{
+        margin-bottom:0.5em;
+      }
+      .colunas{
+        column-count:1;
+        height:auto;
+        width:100%;
+        font-size:1.1em;
+      }
+      .logocolor{
+        right:0;
+        width:100%;
+        height:18em;
+        background-size:auto 70%;
+        background-position:center center;
+      }
+    }
+
+    #facilities{
+      padding:0;
+      height:auto;
+      padding:0;
+      margin:0;
+      padding-top:45vh;
+      .cutfacilitiesvideo{
+        position:absolute;
+        top:0vh;
+
+        left:0;
+
+        width:100%;
+        height:50vh;
+      }
+      .facilitiestext{
+        padding:2em;
+        margin:0;
+        width:90%;
+        margin-left:5%;
+
+        h2{
+          font-size:6em;
+        }
+
+        .datext{
+          margin:0;
+    			font-size: 1.1em;
+    			line-height:1.5em;
+
+    		}
+      }
+    }
+
+
+    #brands{
+      height:auto;
+      overflow:hidden;
+      text-align:left;
+      .brandsnav{
+        display:block;
+        margin:0;
+        padding:0;
+        height:38vh;
+        list-style-type: none;
+        text-align:left;
+
+        .onebrand{
+          float:left;
+          display:block;
+          margin:0;
+          padding:0;
+          height:50%;
+    			width:calc(100% / 3);
+          border-right: solid white 1px;
+          border-bottom:solid white 1px;
+          .loguinho{
+            border-width: 1em;
+          }
+          .mini-brandtitle{
+            font-size:1.2em;
+          }
+
+          }
+        }
+        .bigbrandswrapper{
+          height:100vh;
+          .bigbrand{
+            .bigbrandtext{
+              padding-right:2em;
+              width:auto;
+              right:0em;
+              left:auto;
+              bottom:2em;
+              top:auto;
+
+
+              h3{
+                font-size:4em;
+                line-height:1em;
+              }
+              p{
+                font-size:1.1em;
+                margin-top:0.5em;
+
+              }
+            }
+            .brandbutton{
+                a{
+                  font-size:1.1em;
+                }
+            }
+            .verticalsep{
+              height:5em;
+            }
+          }
+        }
+        .bottleswrapper{
+          padding:0;
+          padding-top:3em;
+          width:100%;
+
+          .dabottles{
+            margin:0;
+            padding:0;
+            position:relative;
+            float:left;
+            width:48%;
+            height:auto;
+            padding-bottom:2em;
+            img{
+              height:34vh;
+            }
+            .text-part{
+              padding:0.5em;
+              h5{
+                font-size:2em;
+              }
+              p{
+                font-size:1.1em;
+              }
+            }
+            .redthing{
+              top:0;
+              height:1px;
+              display:none;
+            }
+
+          }
+        }
+    }
+
+    #contacts{
+      .contact-details{
+        position:relative;
+        margin:0;
+        left:0;
+        padding:0;
+        margin-top:2em;
+        font-size:1.1em;
+        i{
+          margin-right:0.5em;
+        }
+      }
+    }
+
+
+
+  }
+
+  section{
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+
+  .big-titles{
+  	font-size:6em;
+  }
+
+  .nav{
+
+    #nav-hamburger{
+      display:block;
+      top:1.5em;
+    }
+
+    .menuzes{
+      display:none;
+    }
+
+  }
+
+  .holdnavbottom{
+    padding:0;
+    margin:0;
+    li{
+      margin:0;
+      padding:0;
+      position:relative;
+      width:100%;
+      margin-bottom:1em;
+    }
+  }
+
+  .holdsocialbottom{
+    margin-top:1em;
+    i{
+      font-size:2em;
+    }
+  }
+
+  &.bottles{
+
+    .intro{
+  		position:relative;
+      padding:0;
+
+  		.dainfo{
+  			position:relative;
+  			width:100%;
+  			height:auto;
+        padding:0;
+        margin:0;
+
+        right:0;
+  			.dacolorlogo{
+  				position:absolute;
+  				background:no-repeat left center;
+  				background-size:contain;
+  				width:45%;
+  				height:50vh;
+          top:-45vh;
+          right:1em;
+  			}
+
+  			.datextcoiso{
+          position:relative;
+  				column-count: 2;
+  				column-gap: 3em;
+  				-moz-column-fill:balance!important;
+  				-webkit-column-fill:balance!important;
+  				column-fill:auto!important;
+          width:auto;
+          right:0;
+          padding:2em;
+          padding-top:8em;
+
+  					h6, p{
+  						margin:0;
+  						padding:0;
+  					}
+  					h6{
+  						font-family:'montserratregular';
+  						color:$dark-red-color;
+  						font-size:1.1em;
+  						margin-bottom:0.5em;
+  					}
+  					p{
+  						font-family:'EB Garamond 12';
+  						font-size:1.1em;
+  						margin-bottom:1.5em;
+  					}
+  			}
+  		}
+  		.daimage{
+  			position:relative;
+  			background:url('/assets/img/papel_north.jpg') no-repeat left top;
+  			background-size:cover;
+  			width:30%;
+  			height:50vh;
+  		}
+  		.bigbottle{
+  			position:absolute;
+  			width:40%;
+  			height:70%;
+  			top:2em;
+  			left:30%;
+  			margin-left:-20%;
+  			background:no-repeat center center;
+  			background-size:contain;
+
+
+  		}
+  	}
+
+
+
+
+
+    .bottleswrapper{
+      padding:0;
+      padding-top:3em;
+      width:100%;
+
+      .dabottles{
+        margin:0;
+        padding:0;
+        position:relative;
+        float:left;
+        width:48%;
+        height:auto;
+        padding-bottom:2em;
+        img{
+          height:34vh;
+        }
+        .text-part{
+          padding:0.5em;
+          h5{
+            font-size:2em;
+          }
+          p{
+            font-size:1.1em;
+          }
+        }
+        .redthing{
+          top:0;
+          height:1px;
+          display:none;
+        }
+
+      }
+    }
+
+  }
+
+  .textito{
+    padding:2em;
+
+    padding-top:7em;
+
+    .stamp{
+      opacity:0.7;
+      width:34%;
+    }
+    .bigname{
+      font-size:5em;
+    }
+    p{
+      font-size:1.2em;
+    }
+  }
+
+}

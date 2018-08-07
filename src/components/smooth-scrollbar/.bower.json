@@ -1,0 +1,39 @@
+{
+  "name": "smooth-scrollbar",
+  "version": "8.2.5",
+  "authors": [
+    "Dolphin Wood <dolphin.w.e@gmail.com>"
+  ],
+  "description": "Customize scrollbar in modern browsers with smooth scrolling experience.",
+  "main": "dist/smooth-scrollbar.js",
+  "moduleType": [
+    "globals",
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "scrollbar",
+    "customize",
+    "acceleration",
+    "performance"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/idiotWu/smooth-scrollbar",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "__demo__",
+    "build",
+    "test"
+  ],
+  "_release": "8.2.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v8.2.5",
+    "commit": "1f2bc078329d1ee6125f925007077db179b15ece"
+  },
+  "_source": "https://github.com/idiotWu/smooth-scrollbar.git",
+  "_target": "^8.1.8",
+  "_originalSource": "smooth-scrollbar"
+}

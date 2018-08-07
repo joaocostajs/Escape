@@ -1,0 +1,83 @@
+.contactit{
+
+	.header{
+		height:62vh;
+		padding-top:53px;
+		.textcenter{
+			margin-left:-10vw;
+			position: relative;
+			text-align:center;
+			padding-bottom:0em;
+			height:100%;
+			opacity:1;
+			display: table-cell;
+			vertical-align: bottom;
+			text-align: center;
+			h1{
+
+				position:relative;
+				padding:0;
+				margin:0;
+				padding-bottom:1em;
+				opacity: 1;
+				font-size:5em;
+				font-family: 'luzsans-bold';
+			}
+		}
+	}
+	
+
+	.main{
+		position:relative;
+		margin-top:63vh;
+		border-top:solid 13px transparent;
+		
+		
+		padding:0vw;
+		
+
+		font-family: 'luzsans-book';
+	
+		
+		#contacts{
+			
+		}
+
+		
+
+		
+	}
+
+	
+
+	.nav{
+		background-color:#fff;
+		color:#000!important;
+		#nav-language{
+			color:#000!important;
+		}
+	}
+}
+
+.contactit.movel{
+	.header{
+		margin:0!important;
+		padding:0!important;
+		.textcenter{
+			margin:0!important;
+			padding:0!important;
+			h1{
+				left:0!important;
+				margin:0!important;
+				
+				font-size:4em!important;
+			}
+		}
+		
+
+	}
+	.main{
+		margin-top:63vh;
+		padding:0vw;
+	}
+}

@@ -1,0 +1,409 @@
+
+
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>EscapeRoom</title>
+
+<!-- build:include /components/metas.html -->
+This will be replaced by the content of metas.html
+<!-- /build -->
+ <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="limbo9" content="home"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+    <link href="//ajax.googleapis.com" rel="dns-prefetch">
+    <link href="/assets/css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyArm68UgUU-uo7yUlimmSiDGw1JUbYLWGM"></script>
+    <!-- <script src="/assets/components/modernizr.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="/assets/js/velocity.min.js"></script>
+    <script src="/assets/js/velocity.ui.min.js"></script>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-56260000-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    <script>
+    var myVar2;
+    function loadfunk(){
+    $('#loading').velocity("callout.pulse");
+    var myVar2 = setTimeout(loadfunk, 500);
+}
+
+loadfunk();
+    </script>
+
+  </head>
+
+
+
+
+  <body>
+    <div id="firstscreen" onclick="avançar()">
+<div class="fade">
+
+
+        <h1>You are now locked <br> inside Lim9</h1>
+        <h3>Clica para continuar</h3>
+</div>
+
+
+    </div>
+
+<div id="massive-wrapper">
+
+<div class="override">
+
+
+    <div id="container" style="background-image:url('assets/img/lim9.jpg');">
+
+      <div id="slides">
+        <div class="slide">
+
+          <div class="slide-partial slide-left "><video class="leftvid" id="vid1" playsinline="true" autoplay="true" muted="true" loop="true"  background-repeat:"no-repeat"; background-size:"cover"; background-position: "center center"; oncanplay="$(this)[0].play()">
+                      <source src="assets/videos/clues.mp4">
+                    </video>
+                  </div>
+          <div class="slide-partial slide-right">
+            <video class="rightvid vid" id="vid2" playsinline="true" autoplay="true" muted="true" loop="true"  background-repeat:"no-repeat"; background-size:"cover"; background-position: "center center;" oncanplay="$(this)[0].play()">
+                      <source src="assets/videos/clues.mp4" style="position:absolute; top:0; left:0;">
+                    </video></div>
+          <div class="text-wrap">
+
+          <h1 class="title" >
+            <div class="title-text">Investiga</div>
+          </h1>
+          <h3 class="titlesmall">
+              <div class="title-text-small">Procura em teu redor por pistas</div>
+          </h3>
+        </div>
+      </div>
+        <div class="slide">
+
+          <div class="slide-partial slide-left "><video class="leftvid vid"  playsinline="true" autoplay="true" muted="true" loop="true"  background-repeat:"no-repeat"; background-size:"cover"; background-position: "center center"; oncanplay="$(this)[0].play()">
+                      <source src="assets/videos/hack.mp4">
+                    </video>
+                  </div>
+          <div class="slide-partial slide-right">
+            <video class="rightvid vid" id="video" playsinline="true" autoplay="true" muted="true" loop="true"  background-repeat:"no-repeat"; background-size:"cover"; background-position: "center center;" oncanplay="$(this)[0].play()">
+                      <source src="assets/videos/hack.mp4" style="position:absolute; top:0; left:0;">
+                    </video></div>
+          <div class="text-wrap">
+
+          <h1 class="title" >
+            <div class="title-text">Decifra</div>
+          </h1>
+          <h3 class="titlesmall">
+              <div class="title-text-small">Usa a tua criatividade e resolve os problemas</div>
+          </h3>
+        </div>
+      </div><div class="slide">
+
+          <div class="slide-partial slide-left "><video class="leftvid vid" playsinline="true" autoplay="true" muted="true" loop="true"  background-repeat:"no-repeat"; background-size:"cover"; background-position: "center center"; oncanplay="$(this)[0].play()">
+                      <source src="assets/videos/clock.mp4">
+                    </video>
+                  </div>
+          <div class="slide-partial slide-right">
+            <video class="rightvid vid" id="video" playsinline="true" autoplay="true" muted="true" loop="true"  background-repeat:"no-repeat"; background-size:"cover"; background-position: "center center;" oncanplay="$(this)[0].play()">
+                      <source src="assets/videos/clock.mp4" style="position:absolute; top:0; left:0;">
+                    </video></div>
+          <div class="text-wrap">
+
+          <h1 class="title" >
+            <div class="title-text ">Escapa</div>
+          </h1>
+          <h3 class="titlesmall">
+              <div class="title-text-small">Escapa antes que o tempo se esgote</div>
+          </h3>
+        </div>
+      </div>
+
+    </div>
+
+
+      <div>
+        <img src="assets/img/PathCopy4.svg" class="btn prev">
+      <img src="assets/img/nextarrow.svg" class="btn next">
+      </div>
+      <ul id="slide-select" >
+        <li class="selector"></li>
+        <li class="selector"></li>
+        <li class="selector"></li>
+      </ul>
+      <div class="logo">
+
+        <img src="assets/img/logo.png" alt="" onclick="openEscape()">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img id="hamburger"  src="assets/img/menu.svg"></span>
+      </div>
+      <div class="cta"  onclick="openFill()">
+
+          <span id="buttonB" style="cursor:pointer;" > <span>Inscreve-te</span></span>
+
+      </div>
+
+
+
+                            <div id="myNav" class="overlay">
+                              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+
+                              <div class="logomenu">
+                                <a href="http://www.lim9.com/" target="_blank">
+                                    <img  id="lim9logo" src="assets/img/lim9whitelogo.png" alt="">
+                                  </a>
+                              </div>
+
+                              <div class="aboutUs">
+                                <p>
+                                  We created lim9 because we wanted to develop something Diferent,
+                                     something that went beyond the traditional Creative Studio or Agency.
+                                      We believe that quality comes from a "Less Is More"​ attitude and
+                                      therefore we don't work with ASSIGNMENTS (momentary work dictated by
+                                      a budget and rushed by profits), we only work with DREAMS,
+                                       may them be humble or sumptuous!
+                                  </p>
+                              </div>
+
+                              <div class="links">
+                                <a href="https://www.facebook.com/limnove/" target="blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://twitter.com/lim9_agency" target="blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/lim9.agency/" target="blank"><i class="fab fa-instagram"></i></a>
+                                <a href="skype:limnove?chat" target="blank"><i class="fab fa-skype"></i></a>
+                                <a href="mailto:info@lim9.com" ><i class="fas fa-envelope"></i></a>
+                              </div>
+
+
+                        </div>
+
+
+
+<div id="escape" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeEscape()">&times;</a>
+
+
+  <div class="logomenu">
+    <img id="logoescape" src="assets/img/logo.png" alt="">
+  </div>
+
+  <div class="aboutescape">
+    <p>
+An escape room, also known as an "escape game",
+is a physical adventure game in which players
+solve a series of puzzles and riddles using clues,
+hints, and strategy to complete the objectives at hand.
+Players are given a set time limit to unveil the secret plot
+which is hidden within the rooms.
+ <!-- Escape rooms are inspired by
+"escape-the-room"–style video games. Games are set in a variety
+of fictional locations, such as prison cells, dungeons, and space
+stations, and usually the various puzzles and riddles themselves
+follow the theme of the room. -->
+    </p>
+    <div class="rules">
+      <img src="assets/img/team.png" alt="">
+      <img src="assets/img/clues.png" alt="">
+      <img src="assets/img/timer.png" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="fill" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeFill()">&times;</a>
+
+  <div class="scores">
+      <h2>Melhores Tempos</h2>
+      <ul>
+        <li>1 - <strong>Lorem Ipsum</strong></li>
+        <li>2 - <strong>Lorem Ipsum</strong></li>
+        <li>3 - <strong>Lorem Ipsum</strong></li>
+        <li>4 - <strong>Lorem Ipsum</strong></li>
+        <li>5 - <strong>Lorem Ipsum</strong></li>
+        <li>6 - <strong>Lorem Ipsum</strong></li>
+        <li>7 - <strong>Lorem Ipsum</strong></li>
+        <li>8 - <strong>Lorem Ipsum</strong></li>
+        <li>9 - <strong>Lorem Ipsum</strong></li>
+        <li>10 - <strong>Lorem Ipsum</strong></li>
+      </ul>
+    </div>
+
+    <form name="contactform" method="post" id="gform"  action="https://script.google.com/macros/s/AKfycbxfe63Ri74oV1Aa520ls5_gthhRO_FNSUYp8Zr8IpreZATol-4z/exec" >
+
+
+ <label for="first">
+   <!-- First Name: -->
+   <input type="text"  id="first" name="name" placeholder="Nome" required title="insert your name">
+   </label>
+
+
+<div>
+ <label>
+   <input type="email" name="email" placeholder="Email" required>
+ </label>
+ <label class="equipa"  style="margin-right:15px;font-family:'Roboto Slab'">Equipa
+   <select name="equipa" id="equipa" style="margin: 10px 0px 10px 25px;border-radius: 10px;display:inline-block;padding:5px 140px 5px 10px;">
+     <option>Sim</option>
+     <option>Não</option>
+
+   </select>
+ </label>
+</div>
+<input style="width:280px;display:block; color:black;" type="text"  id="first" name="team" placeholder="Nome da equipa" title="insert your team"></label>
+
+
+   <!-- <label>Notes</label> -->
+   <textarea name="notes" rows="10" cols="40" placeholder="Write Notes Here"></textarea>
+   <p id="nota">NOTA: A sua reserva só fica registada depois de receber um email de confirmação. <br>
+ <input   id="submit" type="submit" name="" class="trigger">
+
+ </form>
+
+</div>
+
+
+
+  </div>
+
+</div>
+
+
+
+</div>
+</div>
+</div>
+<section>
+
+
+<div class="pluscenas"  id="explicaçao">
+  <div id="section1" class="quem-somos">
+        <h1>
+          Escape Room <br>
+        </h1>
+        <p class="columns">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, loremconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol </p>
+      </div>
+      <div class="cenas">
+
+<div class='cor-left'>
+
+         </div>
+
+
+<!-- <div class='cor-left-2 rellax' data-rellax-speed="1"> -->
+<div class='cor-left-2'>
+           <h2 class='heading'></h2>
+
+           <p class='datext'>4 enigmas
+                        <br> 10 minutos
+                        <br>
+           </p>
+            </div>
+         </div>
+   </div>
+
+
+   <section id="posso-participar">
+
+     <div   class="quem">
+       <div id="section1" class="quem-somos">
+             <h1>
+               Quem pode  <br>Participar?
+             </h1>
+             <p class="columns">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, loremconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol </p>
+           </div>
+           <div class="cenas">
+
+     <div class='cor-left'>
+
+              </div>
+
+
+     <!-- <div class='cor-left-2 rellax' data-rellax-speed="1"> -->
+     <div class='cor-left-2'>
+                <h2 class='heading'></h2>
+
+                <p class='datext'>12+ Anos
+                            <br>  2 - 4 elementos
+                            <br>
+                </p>
+                </div>
+              </div>
+        </div>
+
+
+
+   </section>
+
+   <section id="all-escape-rooms">
+<div class="">
+
+
+     <h1>
+       Nossas <br> EscapeRooms
+     </h1>
+</div>
+     <span class="grid-escapes">
+
+       <span class="versoes">
+         <h3 class="themes">Office</h3>
+       </span>
+       <span class="unavailable">
+         <h3 class="nextthemes">para <br> breve </h3>
+       </span>
+       <span class="unavailable">
+         <h3 class="nextthemes">para <br> breve </h3>
+       </span>
+       <span class="unavailable">
+         <h3 class="nextthemes">para <br> breve </h3>
+       </span>
+       <span class="unavailable">
+         <h3 class="nextthemes">para <br> breve </h3>
+       </span>
+
+
+     </span>
+   </section>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- build:include /components/scripts.html -->
+This will be replaced by the content of scripts.html
+<!-- /build -->
+
+<footer class="footer" id="endfooter" role="contentinfo">
+              <p>© 2018 Escape Room | Development: <a href='http://www.lim9.com' target='_new'>Lim9</a> | Powered By: Limbo9</p>
+            </footer>
+
+<!-- <script type="text/javascript">
+var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+</script> -->
+  </body>
+
+</html>

@@ -1,0 +1,1082 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  overflow: visible;
+  font-family: "Roboto",serif;
+}
+input{
+  font-family: "Roboto",serif;
+}
+.override{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+#firstscreen{
+  transition: .3s all ease-in-out;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family:"Bebas Neue";
+  -webkit-transition: 1s;
+            transition: 1s;
+    h1{
+      font-family: "bebas regular";
+      font-size: 6em;
+      padding-top: 20%;
+    }
+    h3{
+      font-family: "bebas regular";
+      margin-top: 10px;
+      font-size: 1.4em;
+      font-weight: lighter;
+    }
+    .fade{
+      display:none;
+    }
+}
+
+textarea{
+width:350px;
+border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+  padding: 15px;
+  height: 130px;
+  font-family: "Roboto ",serif;
+}
+
+form{
+  width: 135vw;
+  text-align: center;
+  position: relative;
+  color: white;
+  display: inline-block;
+  left: 0;
+	top: -12em;
+
+  p{
+    padding: 20px 0px;
+    min-width: 250px;
+    margin: auto;
+    font-family: "Roboto ",serif;
+    line-height: 1.6;
+  }
+}
+
+.more{
+  display: block;
+  overflow: hidden;
+}
+#massive-wrapper{
+  display:none;
+  width: 100%;
+  height: 100%;
+}
+
+
+#container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  display: block;
+}
+.cta{
+  position: absolute;
+  text-align: center;
+  z-index: 3000;
+  width: 100%;
+
+
+#buttonB{
+border-radius: 8px;
+background-color: white;
+color:rgba(51,51,51,0.7);
+margin-left: 0;
+margin-right: 0;
+margin: auto;
+position: relative;
+bottom: 200px;
+font-size: 1.5em;
+font-family: "bebas regular";
+font-weight:400;
+letter-spacing: 2px;
+padding: 8px 15px 5px 15px;
+box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+transition: all .3s ease-in-out;
+}
+#buttonB:hover{
+  box-shadow: 0px 0px 30px rgba(0,0,0,.3);
+  color:rgba(51,51,51,1);
+}
+}
+
+
+
+
+        label{
+
+          display: block;
+          text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            input{
+              width: 280px;
+            }
+        }
+        textarea{
+          width: 280px;
+        }
+        #nota{
+          width: 280px;
+          font-size: .9em;
+        }
+          p{
+            padding: 20px 0px;
+            max-width: 450px;
+            margin: auto;
+            font-family: "Roboto",serif;
+            line-height: 1.6;
+          }
+
+
+.logo{
+  position: fixed;
+  width: 100%;
+  top: 50px;
+  z-index:2000;
+margin-left: 50px;
+
+  img{
+    height: 110px;
+    width: auto;
+    transition: all .1s ease-in-out;
+  }
+  img:hover{
+    height: 115px;
+    width: auto;
+  }
+
+  #whitelogo{
+    position: absolute;
+    left: 50px;
+    top:10px;
+    height: 70px;
+    transition: all .1s ease-in-out;
+  }
+  #whitelogo:hover{
+    position: absolute;
+
+
+    height: 75px;
+  }
+
+}
+
+.prev{
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  z-index: 200;
+  color: white;
+}
+.next{
+   position: absolute;
+  top: 50%;
+  z-index: 200;
+  color: white;
+  right: 50px;
+}
+
+#slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#slides .slide {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+#slides .slide .title {
+  position: relative;
+ margin: 0 auto;
+  z-index: 0;
+  padding-top: 50px;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 6.5em;
+  color: white;
+}
+.text-wrap{
+  margin: auto;
+    width: 80%;
+  text-align: center;
+}
+
+
+
+#slides .slide .title .title-text {
+  display: block;
+  font-family: "bebas regular";
+  opacity:0;
+  -webkit-transform: translateY(1.5em);
+          transform: translateY(1.5em);
+  transition: -webkit-all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out, -webkit-all .8s ease-in-out;
+}
+
+
+#slides .slide .titlesmall {
+
+  position: relative;
+  top: calc(70% - 0.5em);
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+  padding-top: 5px;
+  font-family: 'bebas regular';
+  font-weight: 300;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+  color: rgba(255,255,255,1);
+}
+
+#slides .slide .titlesmall .title-text-small {
+
+  display: block;
+  -webkit-transform: translateY(1.5em);
+          transform: translateY(1.5em);
+          opacity:0;
+
+
+  transition: -webkit-transform .8s ease-in-out;
+  transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out, -webkit-all .8s ease-in-out;
+}
+#slides .slide.active .title .title-text {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+          opacity:1;
+  transition-delay: .2s;
+}
+#slides .slide.active .titlesmall .title-text-small {
+
+  -webkit-transform: translate(0);
+          transform: translate(0);
+
+          opacity:1;
+  transition-delay: .2s;
+}
+#slides .slide.active .slide-partial, {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+
+}
+
+#slides .slide .slide-partial {
+
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  transition: transform .8s ease-in-out, -webkit-transform .8s ease-in-out;
+}
+
+
+#slides .slide .slide-left {
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+
+					.leftvid{
+
+					      position: absolute;
+								top: 0;
+								left:50vw;
+					      height: 100vh;
+
+
+
+
+					}
+}
+
+#slides .slide .slide-right {
+  top: 0;
+  right: 0;
+  -webkit-transform: translateX(20%);
+          transform: translateX(100%);
+          .rightvid{
+
+                position: absolute;
+                top: 0;
+                right:50vw;
+                height: 100vh;
+          }
+
+}
+
+
+#slide-select {
+  position: absolute;
+  left: 50%;
+  margin-left: -80px;
+  bottom: 30px;
+  z-index: 100;
+  display: flex;
+  text-align: center;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: white;
+}
+#slide-select li {
+
+  position: relative;
+  cursor: pointer;
+  margin: 0 7px;
+}
+#slide-select .selector {
+
+  height: 3px;
+  width: 40px;
+  background-color: rgba(255,255,255,.30);
+  transition: background-color 0.5s ease-in-out;
+}
+#slide-select .selector.current {
+  background-color: white;
+}
+
+//EscapeRoom
+
+#escape{
+  z-index: 5000;
+
+}
+
+// inscreve-te
+
+
+#fill{
+  z-index: 5001;
+
+}
+
+
+// inscreve-te
+
+// menu
+#myNav{
+  z-index: 5000;
+
+}
+
+
+
+#hamburger{
+  transform: scale(.25);
+  position: absolute;
+  right: 50px;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    opacity: 0.98;
+}
+
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 50px;
+    right: 45px;
+    font-size: 60px;
+}
+.logomenu{
+  width: 25%;
+  text-align: center;
+display: block;
+  img{
+    margin-top: 30px;
+    height: 100px;
+    width: auto;
+    margin-bottom: 100px;
+}
+  #logoescape{
+
+margin-top:50px;
+      height: 110px;
+      width: auto;
+
+}
+
+}
+
+.aboutUs {
+
+  width: 100%;
+  min-width: 500px;
+  text-align:center;
+  display: block;
+  color:white;
+  float: left;
+
+
+  p{
+
+    margin: 10vh auto auto auto;
+    width: 55%;
+    min-width: 700px;
+    letter-spacing: 1.6px;
+    line-height: 1.6;
+    font-family: "Roboto",serif;
+  }
+
+}
+
+.aboutescape{
+  width: 100%;
+  min-width: 500px;
+  text-align:center;
+  display: block;
+  color:white;
+  float: left;
+  p{
+    margin: 50px auto;
+    width: 50%;
+    min-width: 600px;
+    letter-spacing: 1.6px;
+    line-height: 1.6;
+    font-family: "Roboto",serif;
+
+  }
+}
+.links{
+  width: 100%;
+  min-width: 200px;
+  display: block;
+  bottom: 50px;
+  position: absolute;
+  float: left;
+  text-align: center;
+  a{
+    display: inline-block;
+
+      color: rgba(255,255,255,.7);
+
+  }
+}
+.rules{
+  width: 100%;
+  min-width: 200px;
+  display: block;
+  bottom: 60px;
+  position: absolute;
+  float: left;
+  text-align: center;
+  img{
+    height: 140px;
+    width:auto;
+    display: inline-block;
+
+      color: rgba(255,255,255,.7);
+
+  }
+}
+
+
+
+/* The Modal (background) */
+.modalwrapper {
+    position: absolute; /* Stay in place */
+    z-index: 1000000; /* Sit on top */
+    padding-top: 30vh; /* Location of the box */
+    left: 0;
+    color: white;
+    text-align: center;
+    top: 0;
+    width: 0%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(51,51,51,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: rgba(0,0,0,0);;
+    margin: auto;
+    padding: 0;
+    z-index: 100000000;
+    border: none;
+    left: 20em;
+    width: 45%!important;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+    color: rgba(255,255,255,.7);
+    background-color: rgba(0,0,0,0);
+    float: right;
+
+    top: 40px;
+    right: 10%;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#submit{
+  background-color: green;
+border-radius: 10px;
+border: 0px solid;
+margin-top: 20px;
+font-size: 1.5em;
+font-family: "bebas regular";
+font-weight:400;
+letter-spacing: 2px;
+padding: 8px 15px 5px 15px;
+}
+
+label{
+  width: 100%;
+  input{
+    width: 350px;
+    padding:10px 0 10px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 0px solid;
+    color: black;
+  }
+}
+.scores {
+    width: 50vw;
+    display: block;
+    float: left;
+    margin-left: 0em!important;
+    top: 150px!important;
+    text-align: center;
+    position: absolute;
+    color: white;
+    li{
+      margin:13px 0!important;
+      font-family: 'roboto';
+      color: inherit;
+    }
+}
+
+#explicaçao{
+display: block;}
+
+
+
+@media only screen and (max-width: 768px) {
+  #posso-participar{
+  	 margin: -400px 0!important;
+     .quem-somos{
+
+        margin-left: 3em!important;
+        margin-top: 5em;
+        width: 80%;
+        display: block;
+    }
+    .quem{
+      h1{
+
+        font-family: 'Bebas bold';
+        margin-bottom: .5em;
+        font-size: 3.5em;
+        line-height: 1em;
+      }
+
+    }
+
+    .cor-left-2{
+          padding: 150px 0 0 20px!important;
+          p{
+              font-family: 'Bebas bold';
+              margin-bottom: .5em;
+              font-size: 1.6em;
+              line-height: 1.6em;
+              color: white;
+              text-align: left;
+          }
+    }
+    .columns{
+      width: 80vw!important;
+
+      font-size: .8em!important;
+        line-height: 1.6;
+        text-transform: uppercase;
+        font-family:'montserratlight';
+
+        hyphens: none;
+    }
+
+  }
+  #all-escape-rooms{
+
+  	div{
+  		margin-left: 3em!important;
+      margin-top: 70px;
+  			h1{
+
+  				font-family: 'Bebas bold';
+  				margin-bottom: .5em;
+  				font-size: 3.5em!important;
+  				line-height: 1em;
+  			}
+  		}
+
+  			.grid-escapes{
+  				display: grid;
+  				grid-template-columns: 1fr 1fr 1fr!important;
+
+  				width: 100vw;
+  				margin-bottom: 200px;
+  				.versoes{
+  					height: 33.33vw!important;
+  					border:2px solid black;
+  					background-color: green;
+  					text-align: center;
+   					background-image:url('/assets/img/officeroom.jpg');
+  					background-size: cover;
+  					transition: .3s all ease-in-out;
+  					h3{
+  						font-family: 'Bebas bold';
+  						font-size: 3em;
+  						color: white;
+  						position: relative;
+  						top: calc(50% - .5em);
+  						margin:auto;
+  						display: none;
+
+  					}
+  				}
+  				.versoes:hover{
+  					height: 33.33vw!important;
+  					border:2px solid black;
+  					background-color: green;
+  					text-align: center;
+   					background-image:url('/assets/img/officehover.jpg');
+  					background-size: cover;
+
+  				}
+
+  				.unavailable{
+  					height: 33.33vw!important;
+  					border: 2px solid rgba(33,33,33,.5);
+  					background-color: rgba(33,33,33,.1);
+  					text-align: center;
+  					background-size: cover;
+  					transition: .3s all ease-in-out;
+  					.nextthemes{
+  						font-family: 'Bebas bold';
+  						font-size: 3em;
+  						color: white;
+  						position: relative;
+  						top: calc(50% - 1em);
+  						margin:auto;
+  						display: none;
+  							transition: .3s all ease-in-out;
+  					}
+  				}
+  				.unavailable:hover{
+  					height: 33.33vw!important;
+  					border: 2px solid rgba(33,33,33,.8);
+  					background-color: rgba(33,33,33,.3);
+  					text-align: center;
+  					background-size: cover;
+
+  				}
+  			}
+
+}
+
+  #explicaçao{
+
+  	.quem-somos{
+
+      margin-left: 3em!important;
+      margin-top: 5em;
+      width: 80%;
+      display: block;
+  }
+
+
+    h1{
+
+      font-family: 'Bebas bold';
+      margin-bottom: .5em;
+      font-size: 3.5em!important;
+      line-height: 1em;
+    }
+
+
+  .columns{
+    width: 80vw!important;
+
+    font-size: .8em!important;
+    	line-height: 1.6;
+      text-transform: uppercase;
+      font-family:'montserratlight';
+
+      hyphens: none;
+  }
+}
+.cor-left {
+    position: relative;
+    background-image: url('/assets/img/office.jpg');
+    background-size: cover;
+    background-position: -50%;
+    height: 70vh!important;
+    width: 40vw;
+    right: 0;
+    float: right;
+    overflow: hidden;
+    z-index: 8;
+    padding: 10em 7em 0 9em;
+    color: #000;
+    text-align: right;
+    z-index: 8;
+}
+.cenas{
+
+
+.cor-left-2 {
+    position: relative;
+    background-color: #2FAC66;
+    height: 60vh;
+    width: 55vw!important;
+    left: 0!important;
+    top: -65vh!important;
+    overflow: hidden;
+    z-index: 8;
+    padding: 150px 0 0 20px!important;
+    color: #000;
+    text-align: left;
+    z-index: 8;
+    p{
+        font-family: 'Bebas bold';
+        margin-bottom: .5em;
+        font-size: 1.6em!important;
+        line-height: 1.6em;
+        color: white;
+        text-align: left;
+    }
+
+}
+}
+  form{
+    top:90vh;
+    width: 100vw;
+
+    text-align: center;
+    position: absolute;
+    left: 0;
+
+  }
+  .title-text{
+  font-size: .6em;
+  padding-top: 20px;
+  }
+  .title-text-small{
+    font-family: "bebas regular";
+    font-size: .7em;
+    padding-top: 15px;
+  }
+
+  .scores {
+      width: 100vw;
+      display: block;
+      float: left;
+      margin-left: 0em!important;
+      top: 100px!important;
+      text-align: center;
+      position: absolute;
+      color: white;
+      li{
+        margin:13px 0!important;
+        font-family: 'roboto';
+        color: inherit;
+      }
+  }
+
+  .cta{
+  #buttonB{
+    bottom:130px;
+  }
+}
+  .logo{
+    margin-left: 10px;
+    #whitelogo{
+      position: absolute;
+      left: 20px;
+      top:0px;
+      height: 60px;
+      transition: all .1s ease-in-out;
+    }
+    #whitelogo:hover{
+      left: 20px;
+      height: 65px;
+    }
+    img{
+
+      height: 70px;
+      width: auto;
+      transition: all .1s ease-in-out;
+    }
+    img:hover{
+      height: 75px;
+      width: auto;
+    }
+    #hamburger{
+      transform: scale(.5);
+      position: absolute;
+      top:5px;
+      right: 20px;
+    }
+
+  }
+
+
+#firstscreen{
+  .fade{
+    h1{
+      font-family:'bebas regular';
+      padding-top: 40vh;
+      font-size: 3em;
+
+    }
+    h3{
+font-family: "bebas regular";
+      font-size: 1em;
+    }
+  }
+}
+.aboutescape{
+  min-width: 200px;
+
+  p{
+    margin: 10px auto;
+    min-width: 260px;
+    letter-spacing: 1px;
+    font-size: .9em;
+    line-height: 1.6;
+    font-family: "Roboto",serif;
+    position: relative;
+    top: -60px;
+  }
+
+}
+#lim9logo{
+  height: 70px;
+  position: absolute;
+  left: 20px;
+
+}
+.aboutUs{
+  min-width: 200px;
+
+  p{
+    margin: 170px auto;
+    min-width: 250px;
+    font-size: .9em;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-family: "Roboto",serif;
+  }
+
+
+}
+.links{
+  bottom: 40px;
+}
+.rules{
+  bottom: 40px;
+  img{
+    height: 90px;
+  }
+
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 35px;
+    right: 45px;
+    font-size: 60px;
+}
+.logomenu{
+  width: 50%;
+  text-align: center;
+display: block;
+  img{
+    margin-top: 30px;
+    height: 100px;
+    width: auto;
+}
+  #logoescape{
+
+margin-top:50px;
+      height: 45px;
+      width: auto;
+
+}
+
+
+}
+.prev{
+  left: 20px;
+}
+.next{
+  right: 20px;
+}
+
+
+}
+
+input{
+  width: 150px;
+  padding:10px 0 10px 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 0px solid;
+  color: white;
+}
+
+
+
+
+
+
+label{
+
+  display: block;
+  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    input{
+      width: 280px;
+    }
+}
+textarea{
+  width: 290px;
+}
+select{
+  background-color: white;
+  color: #333;
+}
+#nota{
+  width: 280px;
+  font-size: .9em;
+}
+  p{
+    padding: 20px 0px;
+    max-width: 450px;
+    margin: auto;
+    font-family: "Roboto",serif;
+    line-height: 1.6;
+  }
+
+#slide-select{
+  margin-left: -90px;
+  .selector{
+    bottom: 30px;
+    height: 5px;
+    border-radius: 2px;
+    width: 40px;
+    margin:0 10px;
+  }
+}
+/* The Modal (background) */
+.modalwrapper {
+    position: fixed; /* Stay in place */
+    z-index: 10000000; /* Sit on top */
+    padding-top: 30vh; /* Location of the box */
+    left: 0;
+    color: white;
+    text-align: center;
+    top: 0;
+    width: 0%;
+
+    /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(51,51,51,0.9); /* Black w/ opacity */
+}
+.modal-content {
+    position: relative;
+    background-color: rgba(0,0,0,0);;
+    margin: auto;
+    padding: 0;
+    z-index: 100000000;
+    border: none;
+    left: 0;
+    min-width: 100%;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+.aboutUs{
+
+   p{
+    margin: 110px auto;
+      }
+}

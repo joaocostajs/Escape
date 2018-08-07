@@ -1,0 +1,17 @@
+<div id="paypal-button"></div>
+
+    <script>
+        paypal.Button.render({
+
+            env: 'production', // Or 'sandbox',
+
+            payment: function(data, actions) {
+                /* Set up the payment here */
+            },
+
+            onAuthorize: function(data, actions) {
+                /* Execute the payment here */
+            }
+
+        }, '#paypal-button');
+    </script>

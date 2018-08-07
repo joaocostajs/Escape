@@ -1,0 +1,237 @@
+@media only screen and (min-width:320px) {
+	body{
+	font-size:15px;
+}
+
+.wrapper{
+	width:100%;
+
+}
+
+.agarrapages{
+	width:100%;
+}
+
+
+
+.header{
+	.wrapper{
+		padding-left:0rem;
+		padding-right:0rem;
+		.textcenter{
+			padding-top:5em;
+			font-size:0.75em;
+			padding-right:5%;
+			padding-left:5%;
+		}
+	}
+	.wavy{
+		height:28%;
+	}
+}
+
+.postunit{
+	width:100%;
+	.post-image{
+		height:55vw;
+	}
+}
+
+.afastadinho{
+	padding:1em;
+}
+
+#backtomain{
+	width:3em;
+}
+
+
+
+
+.post-text-big {
+
+	p, ol, ul, h2, h3, h1, blockquote{
+		position:relative;
+		min-width:0px;
+		width:100%;
+		padding:1em;
+		padding-top:0em;
+		padding-bottom:0em;
+		margin-left:auto!important;
+		margin-right:auto!important;
+		font-family:'montserratlight';
+
+	}
+	ol, ul, blockquote{
+		padding-left:3.4em;
+
+	}
+}
+
+.intro-text{
+	padding-left:1.3em;
+	padding-right:1.3em;
+}
+
+
+}
+@media only screen and (min-width:512px) {
+
+.postunit{
+	width:50%;
+	.post-image{
+		height:34vw;
+	}
+}
+
+.afastadinho{
+	padding:2em;
+}
+
+#backtomain{
+	width:auto;
+}
+
+.post-text-big{
+
+	p, ol, ul, h2, h3, h1, blockquote{
+		position:relative;
+		min-width:0px;
+		width:100%;
+		padding:2.1em;
+		padding-top:0em;
+		padding-bottom:0em;
+		margin-left:auto!important;
+		margin-right:auto!important;
+		font-family:'montserratlight';
+
+	}
+	ol, ul, blockquote{
+		padding-left:5em;
+
+	}
+}
+
+
+
+}
+
+@media only screen and (min-width:700px) {
+	.header{
+	.wrapper{
+		padding-left:0rem;
+		padding-right:0rem;
+		.textcenter{
+
+			font-size:1em;
+			padding-right:13%;
+			padding-left:13%;
+		}
+	}
+	.wavy{
+		height:34%;
+	}
+}
+
+#sobre{
+	.biglogo{
+		height:13em;
+		background-image: url('/assets/img/logofullcolor.svg');
+	}
+}
+
+
+
+
+}
+
+@media only screen and (min-width:900px) {
+	body{
+		font-size:12px;
+	}
+
+.wrapper{
+	width:60%;
+}
+
+
+
+.header{
+	.wrapper{
+		padding-left:13rem;
+		padding-right:13rem;
+		.textcenter{
+			font-size:1em;
+			padding-right:13%;
+			padding-left:13%;
+		}
+	}
+	.wavy{
+		height:55%;
+	}
+}
+
+
+
+.afastadinho{
+
+	padding:5em;
+
+}
+
+.post-text-big{
+	p, ol, ul, h2, h3, h1, blockquote{
+		position:relative;
+		min-width:800px;
+		width:55vw;
+		padding:0em;
+		margin-left:auto!important;
+		margin-right:auto!important;
+		font-family:'montserratlight';
+
+	}
+	ol, ul, blockquote{
+		padding-left:3.4em;
+
+	}
+
+}
+
+.catalog .postunit{
+	width:33%;
+	.post-image{
+		height:100%;
+		width:auto;
+	}
+}
+
+
+
+}
+
+@media only screen and (min-width:1140px) {
+
+
+
+
+}
+
+@media only screen and (min-width:1500px) {
+body{
+	font-size:18px;
+}
+
+}
+
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .myowncheck{
+    	font-family:sim;
+
+    }
+}

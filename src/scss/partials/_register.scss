@@ -1,0 +1,59 @@
+.register{
+	label{
+	    color: #999999;
+	    font-size: 14px;
+	    margin: 0;
+	}
+
+	input, select{
+	    height: 2em;
+	    margin-bottom: 1em;
+	    border: none;
+	    border-bottom: 1px solid #333;
+	    font-family: 'montserratregular', sans-serif;
+	    padding: 0.2em;
+	    width: 100%;
+	    color: #333;
+	}
+
+	.bt {
+		  cursor: pointer;
+		  // position: absolute;
+		  left: 1em;
+		  right: 1em;
+		  bottom: 1em;
+
+		  .button {
+			  position: static;
+			  left: 0px;
+			  right: 0px;
+			  bottom: 0px;
+			  display: -webkit-box;
+			  display: -webkit-flex;
+			  display: -ms-flexbox;
+			  display: flex;
+			  height: 60px;
+			  -webkit-box-pack: center;
+			  -webkit-justify-content: center;
+			  -ms-flex-pack: center;
+			  justify-content: center;
+			  -webkit-box-align: center;
+			  -webkit-align-items: center;
+			  -ms-flex-align: center;
+			  align-items: center;
+			  // border: 2px solid #333;
+			  background-color: black;
+			  font-family: 'montserratregular', sans-serif;
+			  color: white;
+			  font-size: 16px;
+			  font-weight: 700;
+			  text-align: left;
+			  letter-spacing: 2px;
+			  text-transform: uppercase;
+
+			  &:hover{
+			  	background-color: #333;
+			  }
+			}
+		}
+}

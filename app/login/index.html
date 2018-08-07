@@ -1,0 +1,210 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>VivianCare Checkout</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="TheBrand-Tailors">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="limbo9" content="login"/>
+
+        <meta name="description" content="Engenhos do Norte">
+    <meta property="business:contact_data:country_name" content="Portugal"/>
+    <meta property="business:contact_data:email" content="info@lim9.com"/>
+    <meta property="business:contact_data:website" content="www.lim9.com"/>
+
+    <!-- Search engines -->
+
+    <!-- Google Plus -->
+    <meta itemprop="name" content="Engenhos do Norte">
+    <meta itemprop="description" content="Site Oficial dos Engenhos do Norte">
+    <meta itemprop="image" content="IMAGEURL">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="Site Oficial dos Engenhos do Norte">
+    <meta name="twitter:site" content="@NOMEDAGENTE">
+    <meta name="twitter:title" content="Engenhos do Norte">
+    <meta name="twitter:description" content="Site Oficial dos Engenhos do Norte">
+    <meta name="twitter:image:src" content="IMAGEURL">
+    <meta name="twitter:player" content="">
+    <!-- Open Graph General (Facebook & Pinterest) -->
+
+    <meta property="og:title" content="Engenhos do Norte">
+    <meta property="og:description" content="Site Oficial dos Engenhos do Norte">
+    <meta property="og:site_name" content="Engenhos do Norte">
+    <meta property="og:image" content="IMAGEURL">
+
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+    <link href="//ajax.googleapis.com" rel="dns-prefetch">
+    <link href="/assets/css/style.min.css" rel="stylesheet">
+
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyArm68UgUU-uo7yUlimmSiDGw1JUbYLWGM"></script>
+    <script src="/assets/components/modernizr.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="/assets/js/velocity.min.js"></script>
+    <script src="/assets/js/velocity.ui.min.js"></script>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-56260000-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    <script>
+    var myVar2;
+    function loadfunk(){
+  $('#loading').velocity("callout.pulse");
+  var myVar2 = setTimeout(loadfunk, 800);
+}
+
+loadfunk();
+    </script>
+
+  </head>
+
+
+
+
+  <body>
+  <div id='loading' style='position:fixed; width:100vw; height:15vh; top:50vh; margin-top:-5vh; background:url("/assets/img/logocores.svg") no-repeat center center; background-size:contain;'></div>
+
+    <div id='megawrapper' class='whitenav loginit'>
+
+     <div id='sidemenu'>
+     <ul class='side-list'>
+      <li class='side-item'><i class='icon-home'></i><a href="/" class=''>HOME</a></li>
+       <li class='side-item'><i class='icon-users'></i><a href="/#about-us" data-limbo9='quick about-us section title'></a></li>
+       <li class='side-item'><i class='icon-basket'></i><a href="/catalog/" data-limbo9='quick catalog section title'></a></li>
+        <li class='side-item'><i class='icon-heart-empty'></i><a href="/#services" data-limbo9='quick services-ll section title'></a></li>
+       <li class='side-item'><i class='icon-comment'></i><a href="/#news-blog" data-limbo9='quick news-blog section title'></a></li>
+       <li class='side-item'><i class='icon-location'></i><a href="/#contact-us" data-limbo9='quick contacts section title'></a></li>
+       <li class='divider'></li>
+       <li id='sidelangbar' data-limbo9='each languages'>
+         <p><i class='icon-globe'></i><span class='langbt dalangs' data-limbo9='item'></span></p>
+       </li>
+       <li id='sideaccountbar'>
+         <p><i class='icon-user'></i><span class='logoutmbl'>LOGOUT</span><a href="/login"><span class='loginmbl'>LOGIN</span></a></p>
+       </li>
+     </ul>
+ </div>
+
+
+
+      <section id='langbar' data-limbo9='each languages'>
+
+                      <p class='langbt dalangs' data-limbo9='item'></p>
+
+      </section>
+
+      <nav class='nav animated'>
+        <div id='nav-logo'></div>
+          <ul class='menuzes'>
+            <li class='top-item home'><a class='damnaction' href="/">HOME</a></li>
+            <li class='top-item'><a class='damnaction' href="/#about-us">A HISTÓRIA</a></li>
+            <li class='top-item'><a href="/#facilities" class='damnaction'>INSTALAÇÕES</a></li>
+            <li class='top-item'><a href="/#brands" class='damnaction'>MARCAS</a></li>
+            <!-- <li class='top-item'><a href="/merchandise" class='damnaction'>MERCHANDISE</a></li> -->
+            <li class='top-item'><a href="/#contacts" class='damnaction'>CONTACTOS</a></li>
+          </ul>
+
+           <div id='nav-hamburger' class='blackhamburger'>
+
+              <div id="nav-icon2">
+
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+
+              </div>
+
+          </div>
+
+      </nav>
+
+            <main class="main" role="main">
+              <div class="middle">
+                <div class="logo w-row">
+                </div>
+                <div class="w-row delivery">
+                  <div class="login w-col w-col-5">
+                    <h3>Já sou cliente</h3>
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email">
+
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass">
+
+                    <div class="processing"></div>
+
+                    <div class="bt" id="loginbt">
+                      <a href="#" class="button w-button">login</a>
+                    </div>
+                  </div>
+                  <div class="register w-col w-col-5">
+                    <h3>Ainda não sou cliente</h3>
+                    <label for="register-email">Email</label>
+                    <input type="email" id="register-email">
+
+                    <p>Sou um novo cliente e ainda
+                        não me registei no site.</p>
+
+                    <div class="bt" id="registerbt">
+                      <a href="#" class="button w-button">registar</a>
+                  </div>
+                  </div>
+                </div>
+                <div class="w-row">
+                  <!-- <h1>INSPIRAMOS MODA, EXPIRAMOS TENDÊNCIAS</h1> -->
+                </div>
+              </div>
+              <div class='map'></div>
+            </main> <!-- FIM MAIN -->
+
+             <section id='bottom-menu'>
+
+<div class='biglogobottom'><img src="/assets/img/logoengbranco.svg" alt=""></div>
+<div class='menubottom'>
+  <ul class="holdnavbottom">
+    <li>HOME</li>
+    <li>A HISTÓRIA</li>
+    <li>INSTALAÇÕES</li>
+    <li>MARCAS</li>
+    <li>MERCHANDISE</li>
+    <li>CONTACTOS</li>
+  </ul>
+  <ul class='holdsocialbottom'>
+    <li><i class='icon-facebook-squared'></i></li>
+    <li><i class='icon-twitter-squared'></i></li>
+    <li><i class='icon-instagram'></i></li>
+  </ul>
+  <div class='breakit'></div>
+</div>
+
+</section>
+
+
+<footer class="footer" role="contentinfo">
+              <p>© 2018 Engenhos do Norte | Development: <a href='http://www.lim9.com' target='_new'>Lim9</a> | Powered By: Limbo9</p>
+            </footer>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmap3/7.2.0/gmap3.min.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="/components/aws-cognito-sdk.min.js"></script>
+    <script src="/components/amazon-cognito-identity.min.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.191.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/components/jquery.js"><\/script>');</script>
+    <script src="/assets/js/scripts.min.js"></script>
+  </body>
+
+</html>

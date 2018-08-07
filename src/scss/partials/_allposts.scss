@@ -1,0 +1,76 @@
+.allposts{
+	.main{
+		margin-top:55vh;
+	}
+
+	.nav{
+		background-color:#fff;
+		color:#000!important;
+	}
+
+	.header{
+		height:55vh;
+		.wrapper{
+			color:inherit;
+		}
+
+		.textcenter{
+			margin-left:-10vw;
+			position: relative;
+			text-align:center;
+			padding-bottom:0em;
+			height:100%;
+			opacity:1;
+			display: table-cell;
+			vertical-align: bottom;
+			text-align: center;
+			h1{
+
+				position:relative;
+				padding:0;
+				margin:0;
+				opacity: 1;
+				font-size:5em;
+				font-family: 'luzsans-bold';
+			}
+		}
+	}
+	#news-blog{
+		padding-left:7em;
+		padding-right:5em;
+		padding-bottom:5em;
+
+	}
+	#portfolio{
+		color:black;
+	}
+	.allbrands{
+		text-align: center;
+		padding-bottom:2.1rem;
+		.brandies{
+			margin:0.1em;
+			display:inline-block;
+			padding:0.8em;
+			text-transform: uppercase;
+			font-family: 'luzsans-book';
+			letter-spacing: 2px;
+			font-size:0.9em;
+			border-top:1px solid transparent;
+			border-bottom:1px solid transparent;
+			cursor: pointer;
+				-webkit-transition: all 0.34s ease-in-out;
+		-moz-transition: all 0.34s ease-in-out;
+		-o-transition: all 0.34s ease-in-out;
+		transition: all 0.34s ease-in-out;
+			&:hover{
+			border-top:1px solid black;
+			border-bottom:1px solid black;
+			-webkit-transition: all 0.34s ease-in-out;
+			-moz-transition: all 0.34s ease-in-out;
+			-o-transition: all 0.34s ease-in-out;
+			transition: all 0.34s ease-in-out;
+			}
+		}
+	}
+
+}

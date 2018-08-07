@@ -1,0 +1,146 @@
+.catalog{
+	background-color:white!important;
+	.cta{
+		margin-top:5em;
+	}
+	.nav{
+		color:$gold-color!important;
+		background-color:white!important;
+		
+
+	}
+	.main{
+		margin-top:5em;
+		padding-top:0;
+		background-color:$dark-color!important;
+	}
+
+	.byebye{
+		opacity: 0;
+		width: 100%;
+	}
+
+	#foodnav{
+		background-color:$gold-color!important;
+
+		padding:1em;
+		padding-left:4em;
+		text-align:left;
+
+		.floatit{
+
+			display:inline-block;
+		}
+
+		.gotoright{
+			display:inline-block;
+			float: right;
+			margin-right: 3em;
+		}
+
+		.foodtext{
+			font-family: 'helvetica';
+			text-transform: uppercase;
+			font-size:1.3em;
+			color:$dark-color;
+			padding-right:1em;
+		}
+		.fooddrop{
+			margin-left:-0.5em;
+			p{
+				font-family: montserratregular;
+				text-transform: uppercase;
+				margin-right:0.5em;
+				margin-left:0.5em;
+			}
+			select{
+				background-color:$gold-color!important;
+				color:$dark-color;
+				border:solid 1px #123456;
+				font-size:1em;
+				min-width:15em;
+				height:2em;
+
+			}
+
+			select:active, select:hover {
+			  outline-color: red
+			}
+		}
+
+	}
+
+
+	.postswrapper{
+		padding:3em;
+		padding-left:4em;
+		padding-right:2em;
+		padding-top:0em;
+		background-color:white!important;
+
+		.post-button{
+			opacity: 0;
+			height:1px;
+			overflow: hidden;
+		}
+		.postunit{
+			height:40em;
+			padding-right:1em;
+			padding-top:1em;
+			padding-bottom:1em;
+			background-color:white!important;
+			.post-image{
+				height:75%;
+				background-size: cover;
+				background-position: center center;
+			}
+			.post-text{
+				position: relative;
+				width:100%;
+				height:10em;
+				.post-title{
+					width: 70%;
+					padding-top: 1em;
+					color: $dark-color!important;
+					font-size: 1em;
+					font-family: 'montserratregular';
+					text-align: left;
+					float:left;
+
+				}
+				.post-price{
+					float:right;
+					width:30%;
+					// color: white!important;
+					color: $dark-color!important;
+					font-family: 'montserratlight';
+					text-align: right;
+					font-size: 1.8em;
+					margin: 0px;
+					padding:0px;
+					padding-top:1em;
+				}
+			}
+
+		}
+		.coolness{
+			padding-top:50%;
+			font-family: 'montserratbold';
+			font-size:1em;
+			background-color:$dark-color!important;
+			color:$gold-color!important;
+			&:hover{
+					opacity:0.80;
+
+				}
+		}
+	}
+	.big-sign{
+		margin-left:13em;
+		border:solid 1px #333;
+		color:#333;
+		margin-bottom:5em;
+		display:none;
+	}
+
+}
