@@ -1,0 +1,18 @@
+# FireShell
+# http://getfireshell.com
+# @author Todd Motto
+
+node_modules
+bower_components
+src/components
+.DS_Store
+.tmp
+.sass-cache
+style.min.css
+style.unprefixed.css
+style.prefixed.css
+scripts.min.js
+app/assets/js
+app/assets/css
+WIP
+
