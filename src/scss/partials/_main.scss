@@ -145,6 +145,7 @@ section{
 	position: relative;
 }
 #explicaçao{
+	padding-top:100px;
 	display:none;
 	.quem-somos{
 
@@ -234,7 +235,7 @@ margin:auto;
 overflow: hidden;
 z-index: 8;
 padding: 6em 7em 0 6em;
-color: #000;
+color: #FFF;
 text-align: left;
 z-index: 8;
 		p{
@@ -310,7 +311,7 @@ z-index: 8;
       top:20vh;
       overflow:hidden;
       z-index: 8;
-      padding:6em 7em 0em 6em;
+      padding:4em 7em 0em 4em;
       color:#000;
       text-align: left;
       z-index:8;
@@ -721,9 +722,13 @@ margin-top:-1px;
 
 }
 
-
+.section1{
+	p{
+		padding-bottom:50px;
+	}
+}
 #posso-participar{
-	 margin: 400px 0;
+	 margin: 200px 0 400px;
 }
 #melhores-tempos{
 	 margin: 400px 0;

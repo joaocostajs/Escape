@@ -3421,6 +3421,7 @@ label input {
   }
   #posso-participar .columns {
     width: 80vw !important;
+    padding-bottom: 50px;
     font-size: 0.8em !important;
     line-height: 1.6;
     text-transform: uppercase;
@@ -3527,6 +3528,7 @@ label input {
   }
   #explicaçao .columns {
     width: 80vw !important;
+    padding-bottom: 50px;
     font-size: 0.8em !important;
     line-height: 1.6;
     text-transform: uppercase;
@@ -4384,6 +4386,7 @@ section {
 }
 
 #explicaçao {
+  padding-top: 100px;
   display: none;
 }
 #explicaçao .quem-somos {
@@ -4465,7 +4468,7 @@ section {
   overflow: hidden;
   z-index: 8;
   padding: 6em 7em 0 6em;
-  color: #000;
+  color: #FFF;
   text-align: left;
   z-index: 8;
 }
@@ -4533,7 +4536,7 @@ section {
   top: 20vh;
   overflow: hidden;
   z-index: 8;
-  padding: 6em 7em 0em 6em;
+  padding: 4em 7em 0em 4em;
   color: #000;
   text-align: left;
   z-index: 8;
@@ -4887,8 +4890,12 @@ button:focus {
   background-size: cover;
 }
 
+.section1 p {
+  padding-bottom: 50px;
+}
+
 #posso-participar {
-  margin: 400px 0;
+  margin: 200px 0 400px;
 }
 
 #melhores-tempos {
