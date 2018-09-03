@@ -15,10 +15,7 @@ body{
 	background-color: #fff;
 }
 .scores{
-	display: block;
-	float:left;
-	// margin-left: 15em;
-	top: -80px;
+
 	position: relative;
 	h2{
 		font-size: 2em;
@@ -33,7 +30,7 @@ body{
 display: inline-block;
 height: 100px;
 position: relative;
-top: 45px;
+top: 30px;
 right: 180px;
 float: right;
 }
@@ -200,15 +197,14 @@ font-size: .9em;
 
   .cor-left-2{
       position:relative;
-			background-color:rgba(47,172,102,.8);
-      height:60vh;
+			background-color:rgba(196,186,60,.8);
+      height:auto;
       width:40vw;
       left:20em;
       top:15vh;
       overflow:hidden;
       z-index: 8;
       padding:6em 7em 0em 6em;
-
       color:#000;
       text-align: left;
       z-index:8;
@@ -218,20 +214,45 @@ font-size: .9em;
 					font-size: 2em;
 					line-height: 1.6em;
 					color: white;
+					padding-bottom: 70px;
 					text-align: left;
 			}
     }
+
 }
 
 }
 .nav-up {
     top: -100px;
 }
+.cor-left-4{
+	position: relative;
+background-color: rgba(196,186,60,.8);
+height: auto;
+width: 40vw;
+margin:auto;
+overflow: hidden;
+z-index: 8;
+padding: 6em 7em 0 6em;
+color: #000;
+text-align: left;
+z-index: 8;
+		p{
+				font-family: 'Bebas bold';
+				margin-bottom: .5em;
+				font-size: 2em;
+				line-height: 1.6em;
+				color: white;
+				text-align: left;
+		}
+	}
 
 #posso-participar{
 	display: none;
 }
-
+#melhores-tempos{
+	display: none;
+}
 
 .quem{
 	.quem-somos{
@@ -282,8 +303,8 @@ font-size: .9em;
 
   .cor-left-2{
       position:relative;
-      background-color:rgba(47,172,102,.8);
-      height:60vh;
+      background-color:rgba(196,186,60,.8);
+      height:auto;
       width:40vw;
       left:20em;
       top:20vh;
@@ -297,6 +318,7 @@ font-size: .9em;
 					font-family: 'Bebas bold';
 					margin-bottom: .5em;
 					font-size: 2em;
+					padding-bottom:70px;
 					line-height: 1.6em;
 					color: white;
 					text-align: left;
@@ -698,10 +720,14 @@ margin-top:-1px;
 			}
 
 }
+
+
 #posso-participar{
 	 margin: 400px 0;
 }
-
+#melhores-tempos{
+	 margin: 400px 0;
+}
 	.titlewrapper{
 
 	}

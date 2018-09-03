@@ -299,6 +299,7 @@ module.exports = function (grunt) {
         },
         files: {
           '<%= project.app %>/index.html': ['<%= project.src %>/html/index.html'],
+          '<%= project.app %>/engindex.html': ['<%= project.src %>/html/engindex.html'],
           '<%= project.app %>/rum-north-natural.html': ['<%= project.src %>/html/rum-north-natural.html'],
           '<%= project.app %>/rum-north-velho.html': ['<%= project.src %>/html/rum-north-velho.html'],
           '<%= project.app %>/rum-north-barrica.html': ['<%= project.src %>/html/rum-north-barrica.html'],

@@ -145,12 +145,7 @@ function closeFill() {
     document.getElementById("fill").style.width = "0%";
 }
 
-function openEscape() {
-    document.getElementById("escape").style.width = "100%";
-}
-function closeEscape() {
-    document.getElementById("escape").style.width = "0%";
-}
+
 
 
 
@@ -475,7 +470,8 @@ function avançar(){
   document.getElementById("massive-wrapper").style.display = "block";
   document.getElementById("firstscreen").style.display = "none";
   document.getElementById("posso-participar").style.display = "block";
-  document.getElementById("all-escape-rooms").style.display = "block";
+  document.getElementById("melhores-tempos").style.display = "block";
+  // document.getElementById("all-escape-rooms").style.display = "block";
   resizevid();
   interval = window.setInterval(cycle, 4000);
 
