@@ -29,6 +29,28 @@ body{
 		margin: 17px 0;
 	}
 }
+.lang{
+display: inline-block;
+height: 100px;
+position: relative;
+top: 45px;
+right: 180px;
+float: right;
+}
+.lang p{
+	display: inline-block;
+	font-family: 'bebas neue';
+	color: white;
+	font-size: 1.6em;
+	text-transform: uppercase;
+}
+.brevemente{
+	text-align: center;
+	color: white;
+	font-family: 'bebas neue';
+margin-top:50vh;
+font-size: 2em;
+}
 #carrinho{
 	text-decoration: none;
 	z-index: 100;
