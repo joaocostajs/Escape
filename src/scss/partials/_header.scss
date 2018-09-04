@@ -638,6 +638,11 @@ display: block;}
 
 
 @media only screen and (max-width: 768px) {
+.brevemente{
+padding:0 30px;
+margin-top:30vh!important;
+}
+
 
   .bottom{
   	width:100%;
@@ -647,6 +652,19 @@ display: block;}
   	background-color: #424242;
   	position: relative;
 
+
+  }
+  .bottom ul {
+      font-size: .7em;
+      line-height: 1.6;
+      text-transform: uppercase;
+      font-family: 'montserratlight';
+      text-align: center!important;
+      margin-left:0!important;
+      width: 100%;
+      position: absolute;
+      color: #fff;
+      bottom: 10px;
   }
   .biglogobottom{
   	height:100px!important;
@@ -669,7 +687,7 @@ display: block;}
 
     font-family: 'Bebas bold';
     margin-bottom: .5em;
-    font-size: 5em;
+    font-size: 4em!important;
   	text-align: right;
     line-height: 1em;
   }
@@ -844,7 +862,7 @@ float: right;
 
         font-family: 'Bebas bold';
         margin-bottom: .5em;
-        font-size: 3.5em;
+        font-size: 4em!important;
         width: 90%;
         line-height: 1em;
 
@@ -959,7 +977,7 @@ padding-bottom:50px;
 
            font-family: 'Bebas bold';
            margin-bottom: .5em;
-           font-size: 3.5em!important;
+           font-size: 4.6em!important;
            line-height: 1em;
          }
      }
