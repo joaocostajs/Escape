@@ -471,6 +471,7 @@ function avançar(){
   document.getElementById("firstscreen").style.display = "none";
   document.getElementById("posso-participar").style.display = "block";
   document.getElementById("melhores-tempos").style.display = "block";
+  document.getElementById("bttm").style.display = "block";
   // document.getElementById("all-escape-rooms").style.display = "block";
   resizevid();
   interval = window.setInterval(cycle, 4000);

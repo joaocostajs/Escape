@@ -14,8 +14,63 @@ body{
 	overflow-y:hidden!important;
 	background-color: #fff;
 }
-.scores{
+#bttm{
+	display: none;
+}
+.bottom{
 
+	width:100%;
+	height:200px;
+	bottom:55px;
+	text-align: center;
+	background-color: #424242;
+	position: relative;
+
+}
+.bottom ul{
+	font-size: .85em;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: montserratlight;
+	text-align: left;
+	margin-left:3em;
+	width:100%;
+position: absolute;
+	color:white;
+	bottom:10px;
+}
+.bottom ul li{
+	padding:0 20px;
+	display: inline-block;
+}
+.biglogobottom{
+	height:150px;
+}
+.lang2{
+display: inline-block;
+height: 100px;
+width: 100%;
+position: relative;
+top: 23px;
+float: right;
+text-align: center;
+}
+.lang2 p{
+	display: inline-block;
+	font-family: 'bebas neue';
+	color: white;
+	font-size: 1.6em;
+	text-transform: uppercase;
+}
+.lang2 p:hover{
+	display: inline-block;
+	font-family: 'bebas neue';
+	color: white;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+.scores{
+text-align: center;
 	position: relative;
 	h2{
 		font-size: 2em;
@@ -26,12 +81,13 @@ body{
 		margin: 17px 0;
 	}
 }
+
 .lang{
 display: inline-block;
 height: 100px;
 position: relative;
-top: 30px;
-right: 180px;
+top: 23px;
+right: 100px;
 float: right;
 }
 .lang p{
@@ -39,6 +95,13 @@ float: right;
 	font-family: 'bebas neue';
 	color: white;
 	font-size: 1.6em;
+	text-transform: uppercase;
+}
+.lang p:hover{
+	display: inline-block;
+	font-family: 'bebas neue';
+	color: white;
+	font-size: 1.8em;
 	text-transform: uppercase;
 }
 .brevemente{
@@ -149,9 +212,11 @@ section{
 	display:none;
 	.quem-somos{
 
-    margin-left: 10em;
+    margin-right: 10em;
     margin-top: 5em;
     width: 80%;
+		float: right;
+		text-align: right;
     display: block;
 
 }
@@ -160,12 +225,13 @@ h1{
   font-family: 'Bebas bold';
   margin-bottom: .5em;
   font-size: 5em;
+	text-align: right;
   line-height: 1em;
 }
 .columns{
-
+float: right;
 width: 45vw;
-
+    padding-bottom: 100px;
 
 font-size: .9em;
 	line-height: 1.6;
@@ -187,7 +253,7 @@ font-size: .9em;
 			margin-bottom: 150px;
       width:50vw;
       right:0;
-     float: right;
+     float: left;
       overflow:hidden;
       z-index: 8;
       padding:10em 7em 0em 9em;
@@ -195,13 +261,35 @@ font-size: .9em;
       text-align: right;
       z-index:8;
     }
-
-  .cor-left-2{
+		.cor-left-2{
+				position:relative;
+				background-color:rgba(196,186,60,.8);
+				height:auto;
+				width:40vw;
+				left:23em;;
+				top:15vh;
+				overflow:hidden;
+				z-index: 8;
+				padding:6em 7em 0em 6em;
+				color:#000;
+				text-align: left;
+				z-index:8;
+				p{
+						font-family: 'Bebas bold';
+						margin-bottom: .5em;
+						font-size: 2em;
+						line-height: 1.6em;
+						color: white;
+						padding-bottom: 70px;
+						text-align: left;
+				}
+			}
+  .cor-left-3{
       position:relative;
 			background-color:rgba(196,186,60,.8);
       height:auto;
       width:40vw;
-      left:20em;
+      right:18em;
       top:15vh;
       overflow:hidden;
       z-index: 8;
@@ -269,6 +357,7 @@ z-index: 8;
 	  font-family: 'Bebas bold';
 	  margin-bottom: .5em;
 	  font-size: 5em;
+		width:50%;
 	  line-height: 1em;
 	}
 	.columns{
@@ -307,7 +396,7 @@ z-index: 8;
       background-color:rgba(196,186,60,.8);
       height:auto;
       width:40vw;
-      left:20em;
+      left:29em;
       top:20vh;
       overflow:hidden;
       z-index: 8;
@@ -325,6 +414,29 @@ z-index: 8;
 					text-align: left;
 			}
     }
+		.cor-left-3{
+	      position:relative;
+	      background-color:rgba(196,186,60,.8);
+	      height:auto;
+	      width:40vw;
+	      left:20em;
+	      top:20vh;
+	      overflow:hidden;
+	      z-index: 8;
+	      padding:4em 7em 0em 4em;
+	      color:#000;
+	      text-align: left;
+	      z-index:8;
+				p{
+						font-family: 'Bebas bold';
+						margin-bottom: .5em;
+						font-size: 2em;
+						padding-bottom:70px;
+						line-height: 1.6em;
+						color: white;
+						text-align: left;
+				}
+	    }
 }
 
 .breakit{
@@ -376,7 +488,7 @@ button:focus {
 	height:55px;
 	text-align: center;
 	line-height: 34px;
-	background-color:$dark-color;
+	background-color:black;
 	border-top: 1px solid #333;
 	font-family: 'montserratlight';
 	font-size:0.8em;

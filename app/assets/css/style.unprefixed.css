@@ -2896,7 +2896,7 @@ p {
 .logo .imglogo {
   height: 70px;
   width: auto;
-  margin-left: 80px;
+  margin-left: 20px;
   transition: all .1s ease-in-out;
 }
 .logo .imglogo:hover {
@@ -3101,8 +3101,8 @@ p {
 #hamburger {
   transform: scale(0.25);
   position: absolute;
-  right: 50px;
-  top: -15px;
+  right: -10px;
+  top: -20px;
 }
 
 .overlay {
@@ -3339,6 +3339,118 @@ label input {
 }
 
 @media only screen and (max-width: 768px) {
+  .bottom {
+    width: 100%;
+    height: 200px;
+    bottom: 155px !important;
+    text-align: center;
+    background-color: #424242;
+    position: relative;
+  }
+
+  .biglogobottom {
+    height: 100px !important;
+    margin-bottom: 40px;
+  }
+
+  #explicaçao {
+    padding-top: 100px;
+    display: none;
+  }
+  #explicaçao .quem-somos {
+    margin-right: 3em !important;
+    margin-top: 5em;
+    width: 80%;
+    float: right;
+    text-align: right;
+    display: block;
+  }
+  #explicaçao h1 {
+    font-family: 'Bebas bold';
+    margin-bottom: .5em;
+    font-size: 5em;
+    text-align: right;
+    line-height: 1em;
+  }
+  #explicaçao .columns {
+    float: right;
+    width: 80vw !important;
+    padding-bottom: 100px;
+    font-size: .9em;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: 'montserratlight';
+    hyphens: none;
+  }
+  #explicaçao .cenas {
+    display: block;
+    width: 100%;
+    margin-top: 60px;
+  }
+  #explicaçao .cenas .cor-left {
+    position: relative;
+    background-image: url("../img/office.jpg");
+    background-size: cover;
+    background-position: 70%;
+    height: 100vh;
+    margin-bottom: 150px;
+    width: 50vw;
+    right: 0;
+    float: left;
+    overflow: hidden;
+    z-index: 8;
+    padding: 10em 7em 0em 9em;
+    color: #000;
+    text-align: right;
+    z-index: 8;
+  }
+  #explicaçao .cenas .cor-left-2 {
+    position: relative;
+    background-color: rgba(196, 186, 60, 0.8);
+    height: auto;
+    width: 80vw;
+    left: 0 !important;
+    top: 15vh;
+    overflow: hidden;
+    z-index: 8;
+    padding: 6em 7em 0em 6em;
+    color: #000;
+    text-align: left;
+    z-index: 8;
+  }
+  #explicaçao .cenas .cor-left-2 p {
+    font-family: 'Bebas bold';
+    margin-bottom: .5em;
+    font-size: 2em;
+    line-height: 1.6em;
+    color: white;
+    padding-bottom: 70px;
+    text-align: left;
+  }
+  #explicaçao .cenas .cor-left-3 {
+    position: relative;
+    background-color: rgba(196, 186, 60, 0.8);
+    height: auto;
+    width: 80vw;
+    right: 0 !important;
+    top: 15vh;
+    overflow: hidden;
+    z-index: 8;
+    padding: 6em 7em 0em 6em;
+    color: #000;
+    text-align: left;
+    z-index: 8;
+  }
+  #explicaçao .cenas .cor-left-3 p {
+    font-family: 'Bebas bold';
+    margin-bottom: .5em;
+    font-size: 2em;
+    line-height: 1.6em;
+    color: white;
+    padding-bottom: 70px;
+    text-align: left;
+  }
+
   .pluscenas {
     position: relative;
     bottom: 400px;
@@ -3389,8 +3501,17 @@ label input {
     height: 100px;
     position: relative;
     float: right;
-    top: 20px;
+    top: 15px;
     right: 100px;
+  }
+
+  .logo .lang2 {
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    float: right;
+    top: 15px;
+    text-align: center;
   }
 
   #posso-participar {
@@ -3406,18 +3527,8 @@ label input {
     font-family: 'Bebas bold';
     margin-bottom: .5em;
     font-size: 3.5em;
+    width: 90%;
     line-height: 1em;
-  }
-  #posso-participar .cor-left-2 {
-    padding: 150px 0 0 20px !important;
-  }
-  #posso-participar .cor-left-2 p {
-    font-family: 'Bebas bold';
-    margin-bottom: .5em;
-    font-size: 1.6em;
-    line-height: 1.6em;
-    color: white;
-    text-align: left;
   }
   #posso-participar .columns {
     width: 80vw !important;
@@ -3514,28 +3625,6 @@ label input {
     line-height: 1em;
   }
 
-  #explicaçao .quem-somos {
-    margin-left: 3em !important;
-    margin-top: 5em;
-    width: 80%;
-    display: block;
-  }
-  #explicaçao h1 {
-    font-family: 'Bebas bold';
-    margin-bottom: .5em;
-    font-size: 3.5em !important;
-    line-height: 1em;
-  }
-  #explicaçao .columns {
-    width: 80vw !important;
-    padding-bottom: 50px;
-    font-size: 0.8em !important;
-    line-height: 1.6;
-    text-transform: uppercase;
-    font-family: 'montserratlight';
-    hyphens: none;
-  }
-
   .cor-left {
     position: relative;
     background-image: url("/assets/img/office.jpg");
@@ -3561,9 +3650,10 @@ label input {
     position: relative;
     background-color: #2FAC66;
     height: auto;
-    width: 70vw !important;
+    width: 80vw !important;
     left: 0 !important;
     top: -65vh !important;
+    float: left;
     overflow: hidden;
     z-index: 8;
     padding: 150px 0 0 20px !important;
@@ -3572,6 +3662,30 @@ label input {
     z-index: 8;
   }
   .cenas .cor-left-2 p {
+    font-family: 'Bebas bold';
+    margin-bottom: .5em;
+    font-size: 1.6em !important;
+    line-height: 1.6em;
+    padding-bottom: 70px;
+    color: white;
+    text-align: left;
+  }
+  .cenas .cor-left-3 {
+    position: relative;
+    background-color: #2FAC66;
+    height: auto;
+    width: 80vw !important;
+    right: 0 !important;
+    top: -65vh !important;
+    float: right;
+    overflow: hidden;
+    z-index: 8;
+    padding: 150px 0 0 20px !important;
+    color: #000;
+    text-align: left;
+    z-index: 8;
+  }
+  .cenas .cor-left-3 p {
     font-family: 'Bebas bold';
     margin-bottom: .5em;
     font-size: 1.6em !important;
@@ -4261,7 +4375,69 @@ body {
   background-color: #fff;
 }
 
+#bttm {
+  display: none;
+}
+
+.bottom {
+  width: 100%;
+  height: 200px;
+  bottom: 55px;
+  text-align: center;
+  background-color: #424242;
+  position: relative;
+}
+
+.bottom ul {
+  font-size: .85em;
+  line-height: 1.6;
+  text-transform: uppercase;
+  font-family: montserratlight;
+  text-align: left;
+  margin-left: 3em;
+  width: 100%;
+  position: absolute;
+  color: white;
+  bottom: 10px;
+}
+
+.bottom ul li {
+  padding: 0 20px;
+  display: inline-block;
+}
+
+.biglogobottom {
+  height: 150px;
+}
+
+.lang2 {
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  top: 23px;
+  float: right;
+  text-align: center;
+}
+
+.lang2 p {
+  display: inline-block;
+  font-family: 'bebas neue';
+  color: white;
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+.lang2 p:hover {
+  display: inline-block;
+  font-family: 'bebas neue';
+  color: white;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
 .scores {
+  text-align: center;
   position: relative;
 }
 .scores h2 {
@@ -4277,8 +4453,8 @@ body {
   display: inline-block;
   height: 100px;
   position: relative;
-  top: 30px;
-  right: 180px;
+  top: 23px;
+  right: 100px;
   float: right;
 }
 
@@ -4287,6 +4463,14 @@ body {
   font-family: 'bebas neue';
   color: white;
   font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+.lang p:hover {
+  display: inline-block;
+  font-family: 'bebas neue';
+  color: white;
+  font-size: 1.8em;
   text-transform: uppercase;
 }
 
@@ -4390,19 +4574,24 @@ section {
   display: none;
 }
 #explicaçao .quem-somos {
-  margin-left: 10em;
+  margin-right: 10em;
   margin-top: 5em;
   width: 80%;
+  float: right;
+  text-align: right;
   display: block;
 }
 #explicaçao h1 {
   font-family: 'Bebas bold';
   margin-bottom: .5em;
   font-size: 5em;
+  text-align: right;
   line-height: 1em;
 }
 #explicaçao .columns {
+  float: right;
   width: 45vw;
+  padding-bottom: 100px;
   font-size: .9em;
   line-height: 1.6;
   text-transform: uppercase;
@@ -4423,7 +4612,7 @@ section {
   margin-bottom: 150px;
   width: 50vw;
   right: 0;
-  float: right;
+  float: left;
   overflow: hidden;
   z-index: 8;
   padding: 10em 7em 0em 9em;
@@ -4436,7 +4625,7 @@ section {
   background-color: rgba(196, 186, 60, 0.8);
   height: auto;
   width: 40vw;
-  left: 20em;
+  left: 23em;
   top: 15vh;
   overflow: hidden;
   z-index: 8;
@@ -4446,6 +4635,29 @@ section {
   z-index: 8;
 }
 #explicaçao .cenas .cor-left-2 p {
+  font-family: 'Bebas bold';
+  margin-bottom: .5em;
+  font-size: 2em;
+  line-height: 1.6em;
+  color: white;
+  padding-bottom: 70px;
+  text-align: left;
+}
+#explicaçao .cenas .cor-left-3 {
+  position: relative;
+  background-color: rgba(196, 186, 60, 0.8);
+  height: auto;
+  width: 40vw;
+  right: 18em;
+  top: 15vh;
+  overflow: hidden;
+  z-index: 8;
+  padding: 6em 7em 0em 6em;
+  color: #000;
+  text-align: left;
+  z-index: 8;
+}
+#explicaçao .cenas .cor-left-3 p {
   font-family: 'Bebas bold';
   margin-bottom: .5em;
   font-size: 2em;
@@ -4499,6 +4711,7 @@ section {
   font-family: 'Bebas bold';
   margin-bottom: .5em;
   font-size: 5em;
+  width: 50%;
   line-height: 1em;
 }
 .quem .columns {
@@ -4532,7 +4745,7 @@ section {
   background-color: rgba(196, 186, 60, 0.8);
   height: auto;
   width: 40vw;
-  left: 20em;
+  left: 29em;
   top: 20vh;
   overflow: hidden;
   z-index: 8;
@@ -4542,6 +4755,29 @@ section {
   z-index: 8;
 }
 .quem .cor-left-2 p {
+  font-family: 'Bebas bold';
+  margin-bottom: .5em;
+  font-size: 2em;
+  padding-bottom: 70px;
+  line-height: 1.6em;
+  color: white;
+  text-align: left;
+}
+.quem .cor-left-3 {
+  position: relative;
+  background-color: rgba(196, 186, 60, 0.8);
+  height: auto;
+  width: 40vw;
+  left: 20em;
+  top: 20vh;
+  overflow: hidden;
+  z-index: 8;
+  padding: 4em 7em 0em 4em;
+  color: #000;
+  text-align: left;
+  z-index: 8;
+}
+.quem .cor-left-3 p {
   font-family: 'Bebas bold';
   margin-bottom: .5em;
   font-size: 2em;
@@ -4595,7 +4831,7 @@ button:focus {
   height: 55px;
   text-align: center;
   line-height: 34px;
-  background-color: #222323;
+  background-color: black;
   border-top: 1px solid #333;
   font-family: 'montserratlight';
   font-size: 0.8em;
@@ -4888,10 +5124,6 @@ button:focus {
   background-color: rgba(33, 33, 33, 0.3);
   text-align: center;
   background-size: cover;
-}
-
-.section1 p {
-  padding-bottom: 50px;
 }
 
 #posso-participar {
