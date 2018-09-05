@@ -42,8 +42,8 @@ top: 5px;
 	font-size: .7em;
     line-height: 1.6;
     text-transform: uppercase;
-    font-family: montserratlight;
-	text-align: left;
+    font-family: 'montserratlight';
+	text-align: center;
 	margin-left:3em;
 	width:100%;
 position: absolute;
@@ -219,12 +219,12 @@ section{
 	position: relative;
 }
 #explicaçao{
-	padding-top:100px;
+	padding-top:0px;
 	display:none;
 	.quem-somos{
 
     margin-right: 10em;
-    margin-top: 5em;
+    margin-top: 0em;
     width: 80%;
 		float: right;
 		text-align: right;
@@ -353,6 +353,152 @@ z-index: 8;
 #melhores-tempos{
 	display: none;
 }
+
+.forms{
+	max-width:1000px;
+	margin:auto;
+	margin-top: 150px;
+	h2{
+		color:white;
+		font-family: bebas Neue;
+		font-size: 2em;
+		margin-bottom:30px;
+		text-align: center;
+	}
+
+}
+.team{
+	position: relative;
+	span{
+		width: 95%;
+		margin: 30px 10px;
+		position: relative;
+		display: inline-block;
+	label{
+		background-color: #e8cc7c;
+display: inline-block;
+padding: 14px 15px!important;
+color: #000;
+top: 0;
+left: 0;
+position: absolute;
+font-size: .8em!important;
+font-family: montserratlight!important;
+text-transform: uppercase;
+	}
+	input{
+		display:inline-block;
+		height: 40px;
+		width:100%;
+		position: relative;
+		border:none;
+		left:0;
+		font-size: .8em!important;
+		font-family: montserratlight!important;
+		text-transform: uppercase;
+
+	}
+}
+}
+.responsavel{
+	position: relative;
+	display:inline-block;
+	width: 100%;
+	span{
+		width: 45%;
+		margin: 0px 10px;
+		position: relative;
+		display: inline-block;
+	label{
+		background-color: #e8cc7c;
+display: inline-block;
+padding: 14px 15px!important;
+color: #000;
+top: 0;
+left: 0;
+position: absolute;
+font-size: .8em!important;
+font-family: montserratlight!important;
+text-transform: uppercase;
+	}
+	input{
+		display:inline-block;
+		height: 40px;
+		width:100%;
+		position: relative;
+		border:none;
+		left:0;
+		font-size: .8em!important;
+		font-family: montserratlight!important;
+		text-transform: uppercase;
+
+	}
+}
+}
+
+.submit{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	margin: 50px 0;
+	label{
+		margin: auto;
+		background-color: #e8cc7c;
+display: inline-block;
+padding: 14px 15px!important;
+color: #000;
+top: 0;
+
+position: relative;
+font-size: .8em!important;
+font-family: montserratlight!important;
+text-transform: uppercase;
+	}
+}
+.eachform{
+	width:45%;
+	float: left;
+	text-align: left;
+	margin: 0 50px 50px 0;
+	position: relative;
+	span{
+		width: 100%;
+		margin: 5px 10px;
+		position: relative;
+		display: inline-block;
+
+		label{
+			background-color: #e8cc7c;
+			display: inline-block;
+			padding: 14px 15px!important;
+			color: #000;
+			top: 0;
+			left: 0;
+			position: absolute;
+			font-size: .8em!important;
+			font-family: montserratlight!important;
+			text-transform: uppercase;
+		}
+		input{
+			display:inline-block;
+			height: 40px;
+			width:100%;
+			position: relative;
+			border:none;
+			left:0;
+			font-size: .8em!important;
+			font-family: montserratlight!important;
+			text-transform: uppercase;
+
+		}
+	}
+
+}
+
+
+
+
+
 
 .quem{
 	.quem-somos{
@@ -847,7 +993,7 @@ margin-top:-1px;
 
 
 #posso-participar{
-	 margin: 200px 0 400px;
+	 margin: 100px 0;
 }
 #melhores-tempos{
 	 margin: 400px 0;

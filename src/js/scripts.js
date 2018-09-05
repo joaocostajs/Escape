@@ -1,3 +1,5 @@
+console.log("ESTOU AQUI");
+
 var $slides = void 0,
     interval = void 0,
     $selectors = void 0,
@@ -131,19 +133,37 @@ resizevid();
 
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
+      $(".aboutUs").fadeIn();
 }
 
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
+      $(".aboutUs").fadeOut("fast");
 }
 
 function openFill() {
     document.getElementById("fill").style.width = "100%";
+    $(".brevemente").fadeIn();
+    $("body").css("height", $("#fill").height());
+    $("body").css("position", "fixed");
+    console.log($("#abcd").width());
+    setTimeout(function(){
+        $(".teamName").css("padding-left", $(".bosta").width()+ 40 );
+        $(".membros").css("padding-left", $(".member").width()+ 40 );
+        $(".email").css("padding-left", $(".mail").width()+ 40 );
+        $(".telem").css("padding-left", $(".phone").width()+ 40 );
+        $(".dataNascimento").css("padding-left", $(".born").width()+ 40 );
+    },700);
+
 }
 
 function closeFill() {
     document.getElementById("fill").style.width = "0%";
+    $(".brevemente").fadeOut("fast");
+    $("body").css("height","auto");
+    $("body").css("position", "relative");
 }
+
 
 
 
