@@ -5,6 +5,7 @@
   <head>
     <meta charset="utf-8">
     <title>EscapeRoom</title>
+    <meta name="lb9lang" content="PT">
 
 <!-- build:include /components/metas.html -->
 This will be replaced by the content of metas.html
@@ -239,48 +240,65 @@ loadfunk();
 <div class="forms">
     <h2>Inscrição</h2>
     <div class="team" action="index.html" method="post">
-        <span>    <input type="name" name="" value="" class="teamName">  <label  for="" class="bosta">Nome da Equipa</label> </span>
-</div>
+        <span>    <input type="name" name="" value="" class="teamName obrigatorio">  <label  for="" class="bosta">Nome da Equipa</label> </span>
+    </div>
 
-  <div class="eachform">
+  <div class="eachform onegroup">
     <div class="" action="index.html" method="post">
-        <span>     <input type="name" name="" value="" class="membros">  <label for="" class="member">Membro 1</label></span>
-        <span>    <input type="email" name="" value="" class="email"> <label for="" class="mail">Email</label> </span>
-      <span>    <input type="number" name="" value="" class="telem"> <label for="" class="phone">Telemóvel</label> </span>
-      <span>     <input type="date" name="" value="" class="dataNascimento"> <label for="" class="born">Data de Nascimento</label> </span>
+        <span>     <input type="name" name="" value="" class="nome membros dainputs obrigatorio">  <label for="" class="member">Membro 1</label></span>
+        <span>    <input type="email" name="" value="" class="e-mail email dainputs obrigatorio"> <label for="" class="mail">Email</label> </span>
+      <span>    <input type="number" name="" value="" class="telefone telem dainputs obrigatorio"> <label for="" class="phone">Telemóvel</label> </span>
+      <span>     <input type="date" name="" value="" class="nascimento dataNascimento dainputs obrigatorio"> <label for="" class="born">Data de Nascimento</label> </span>
+    </div>
+  </div>
+
+  <div class="eachform onegroup">
+    <div class="" action="index.html" method="post">
+        <span>     <input type="name" name="" value="" class="nome membros2 dainputs obrigatorio">  <label for="">Membro 2</label></span>
+        <span>    <input type="email" name="" value="" class="e-mail email2 dainputs obrigatorio"> <label for="">Email</label> </span>
+      <span>    <input type="number" name="" value="" class="telefone telem2 dainputs obrigatorio"> <label for="">Telemóvel</label> </span>
+      <span>     <input type="date" name="" value="" class="nascimento dataNascimento2 dainputs obrigatorio"> <label for="">Data de Nascimento</label> </span>
+    </div>
+  </div>
+
+  <div class="eachform onegroup">
+    <div class="" action="index.html" method="post">
+        <span>     <input type="name" name="" value="" class="nome membros3 dainputs">  <label for="">Membro 3</label></span>
+        <span>    <input type="email" name="" value="" class="e-mail email3 dainputs"> <label for="">Email</label> </span>
+      <span>    <input type="number" name="" value="" class="telefone telem3 dainputs"> <label for="">Telemóvel</label> </span>
+      <span>     <input type="date" name="" value="" class="nascimento dataNascimento3 dainputs"> <label for="">Data de Nascimento</label> </span>
+    </div>
+  </div>
+
+  <div class="eachform onegroup ">
+    <div class="" action="index.html" method="post">
+        <span>     <input type="name" name="" value="" class="nome membros4 dainputs">  <label for="">Membro 4</label></span>
+        <span>    <input type="email" name="" value="" class="e-mail email4 dainputs"> <label for="">Email</label> </span>
+      <span>    <input type="number" name="" value="" class="telefone telem4 dainputs"> <label for="">Telemóvel</label> </span>
+      <span>     <input type="date" name="" value="" class="nascimento dataNascimento4 dainputs"> <label for="">Data de Nascimento</label> </span>
     </div>
   </div>
 
   <div class="eachform">
     <div class="" action="index.html" method="post">
-        <span>     <input type="name" name="" value="" class="membros">  <label for="">Membro 2</label></span>
-        <span>    <input type="email" name="" value="" class="email"> <label for="">Email</label> </span>
-      <span>    <input type="number" name="" value="" class="telem"> <label for="">Telemóvel</label> </span>
-      <span>     <input type="date" name="" value="" class="dataNascimento"> <label for="">Data de Nascimento</label> </span>
+        <span>     <input type="date" name="" value="" class="datapre dainputs obrigatorio">  <label for="">Data Pretendida</label></span>
+        <span>    <input type="name" name="" value="" class="responsa dainputs obrigatorio">  <label for="" class="master">Responsável</label> </span>
     </div>
   </div>
 
   <div class="eachform">
     <div class="" action="index.html" method="post">
-        <span>     <input type="name" name="" value="" class="membros">  <label for="">Membro 3</label></span>
-        <span>    <input type="email" name="" value="" class="email"> <label for="">Email</label> </span>
-      <span>    <input type="number" name="" value="" class="telem"> <label for="">Telemóvel</label> </span>
-      <span>     <input type="date" name="" value="" class="dataNascimento"> <label for="">Data de Nascimento</label> </span>
-    </div>
-  </div>
-
-  <div class="eachform">
-    <div class="" action="index.html" method="post">
-        <span>     <input type="name" name="" value="" class="membros">  <label for="">Membro 4</label></span>
-        <span>    <input type="email" name="" value="" class="email"> <label for="">Email</label> </span>
-      <span>    <input type="number" name="" value="" class="telem"> <label for="">Telemóvel</label> </span>
-      <span>     <input type="date" name="" value="" class="dataNascimento"> <label for="">Data de Nascimento</label> </span>
+        <span>     <input type="time" name="" value="" class="horapre dainputs obrigatorio">  <label for="">Hora Pretendida</label></span>
+        <span class='mailemfalta'>    <input type="name" name="" value="" class="responsamail dainputs obrigatorio">  <label for="" class="master">Email Responsável</label> </span>
     </div>
   </div>
 
 
   <div class="responsavel" action="index.html" method="post">
-      <span>    <input type="name" name="" value="" class="responsa">  <label for="" class="master">Responsável</label> </span>
+
+
+
+      <div class="breakitright"></div>
       <div class="submit">
         <label for="">Enviar</label>
 

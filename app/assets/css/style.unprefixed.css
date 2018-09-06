@@ -3473,6 +3473,9 @@ p {
     position: relative;
     width: 80% !important;
   }
+  .responsavel .mailemfalta {
+    float: right;
+  }
   .responsavel span {
     width: 100% !important;
     margin: 30px 10px;
@@ -4375,6 +4378,44 @@ p {
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
   animation-duration: 0.4s;
+}
+
+.obrigatorio.invalid {
+  border: solid 2px red !important;
+}
+
+.submit {
+  float: left !important;
+  margin-left: 1em !important;
+  margin-top: 0em !important;
+  cursor: pointer;
+}
+.submit:hover label {
+  background-color: white;
+  color: #e8cc7c;
+}
+
+.grandecena {
+  color: white;
+  text-align: center;
+}
+.grandecena h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 5em;
+  margin-top: 35vh;
+  font-family: "bebas regular";
+}
+.grandecena h5 {
+  margin-top: 1em;
+  font-size: 1em;
+  font-family: 'montserratlight';
+}
+
+.processar label {
+  background-color: grey !important;
+  color: black !important;
+  font-size: 2em !important;
 }
 
 .whitenav .nav {
