@@ -449,7 +449,7 @@ margin: 0px auto;
     letter-spacing: 1.6px;
     line-height: 1.6;
     font-family: montserratregular;
-    text-transform: uppercase;
+
   }
 
 }
@@ -598,7 +598,7 @@ padding: 8px 15px 5px 15px;
 #explicaçao{
 display: block;}
 
-@media only screen and (min-height: 830px) and (min-width: 1210px) {
+@media only screen and (min-width: 1210px) {
   .cor-left-3{
       position:relative;
       background-color:rgba(196,186,60,.8);
@@ -616,6 +616,137 @@ display: block;}
 }
 
 @media only screen and (max-width: 1068px) {
+  .cor-left-4{
+  	position: relative;
+  background-color: rgba(196,186,60,.8);
+  height: auto;
+  width: 80vw!important;
+  margin:auto;
+  overflow: hidden;
+  z-index: 8;
+  padding: 6em 7em 0 6em;
+  color: #FFF;
+  text-align: center;
+  z-index: 8;}
+
+.bottom{
+  position:absolute!important;
+
+}
+  .wrap-tempos{
+  	.tempos{
+
+  		margin-left: 10em;
+  		margin-top: 0em;
+  		width: 80%;
+  		float:left;
+  		text-align: left;
+  		display: block;
+
+  	}
+  	h1{
+
+  		font-family: 'Bebas bold';
+  		margin-bottom: .5em;
+  		font-size: 5em;
+  		width:60%;
+  		line-height: 1em;
+  	}
+  }
+
+  #explicaçao{
+    padding-top:100px;
+    display:none;
+    .cenas{
+      .cor-left-3{
+        float: left!important;
+      }
+    }
+    .quem-somos{
+      margin-right: 3em!important;
+      margin-top: 100px!important;
+      width: 80%;
+      float: right;
+      text-align: right;
+      display: block;
+
+  }
+}
+.quem{
+  .cor-left-2{
+    width: 70vw!important;
+  left: 3em!important;
+  top: -65vh!important;
+  float: left;
+  overflow: hidden;
+  z-index: 8;
+  padding: 70px 0 0 150px!important;
+      p{
+          font-family: 'Bebas bold';
+          margin-bottom: .5em;
+          font-size: 1.6em!important;
+          padding-bottom:70px;
+          line-height: 1.6em;
+          color: white;
+          text-align: left;
+      }
+    }
+}
+  .horario{
+    float: left!important;
+
+    max-width: 450px;
+    width: 90vw!important;
+    top: 50px!important;
+    margin-left: 0%!important;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+      h3{
+        text-align: left!important;
+        text-transform: uppercase;
+        font-family: bebas neue;
+        font-size: 3em;
+        margin-bottom: 30px;
+      }
+      .dias-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        grid-gap: 0 10px;
+        position: relative;
+        left: -30px;
+          div{
+            background-color:#e8cc7c;
+            height:50px;
+            padding-top:15px;
+            font-family: montserrat;
+            text-transform: uppercase;
+            font-weight: 400;
+          }
+    }
+    .hora-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      text-align: center;
+      margin-top: 10px;
+      grid-gap: 0 10px;
+      position: relative;
+      left: -30px;
+        div{
+          background-color:#ededed;
+          height:auto;
+          padding: 15px 0 15px 10px;
+          font-size: .8em;
+          text-align: left;
+          line-height: 1.4em;
+          font-family: montserrat;
+
+          font-weight: 400;
+        }
+  }
+  }
+
 
   .team{
     margin-left:50px;
@@ -727,11 +858,133 @@ text-transform: uppercase;
   	}
 
   }
+  .quem{
+
+
+
+
+  	.cor-left{
+        position:relative;
+        background-image: url('../img/peepz.jpg');
+        background-size: cover;
+  			background-repeat: no-repeat;
+        background-position: center center;
+        height:100vh;
+  			margin-bottom: 150px;
+        width:50vw;
+        right:0;
+        top:200px!important;
+        float: right;
+        overflow:hidden;
+        z-index: 8;
+        padding:10em 7em 0em 9em;
+        color:#000;
+        text-align: right;
+        z-index:8;
+      }
+    }
+
+
 }
 
 
 
 @media only screen and (max-width: 768px) {
+
+  .cor-left-4{
+  	position: relative;
+  background-color: rgba(196,186,60,.8);
+  height: auto;
+  width: 100vw!important;
+  margin:auto;
+  overflow: hidden;
+  z-index: 8;
+  padding: 0em 1em 0 0!important;
+  color: #FFF;
+  text-align: center!important;
+  z-index: 8;
+}
+
+  .horario{
+  	float: left!important;
+
+  	max-width: 450px;
+  	width: 90vw!important;
+  	top: 0!important;
+  	margin-left: 0%!important;
+  	height: 150px;
+  	position: relative;
+  	display: inline-block;
+  		h3{
+  			text-align: left!important;
+  			text-transform: uppercase;
+  			font-family: bebas neue;
+  			font-size: 3em;
+  			margin-bottom: 30px;
+  		}
+  		.dias-grid{
+  			display: grid;
+  			grid-template-columns: 1fr 1fr 1fr;
+  			text-align: center;
+  			grid-gap: 0 10px;
+        position: relative;
+        left: -30px;
+  				div{
+  					background-color:#e8cc7c;
+  					height:50px;
+  					padding-top:15px;
+  					font-family: montserrat;
+  					text-transform: uppercase;
+  					font-weight: 400;
+  				}
+  	}
+  	.hora-grid{
+  		display: grid;
+  		grid-template-columns: 1fr 1fr 1fr;
+  		text-align: center;
+  		margin-top: 10px;
+  		grid-gap: 0 10px;
+      position: relative;
+      left: -30px;
+  			div{
+  				background-color:#ededed;
+  				height:auto;
+  				padding: 15px 0 15px 10px;
+  				font-size: .8em;
+  				text-align: left;
+  				line-height: 1.4em;
+  				font-family: montserrat;
+
+  				font-weight: 400;
+  			}
+  }
+  }
+  .quem{
+
+
+
+
+  	.cor-left{
+        position:relative;
+        background-image: url('../img/peepz.jpg');
+        background-size: cover;
+  			background-repeat: no-repeat;
+        background-position: center center;
+        height:100vh;
+  			margin-bottom: 150px;
+        width:50vw;
+        right:0;
+        top:100px!important;
+        float: right;
+        overflow:hidden;
+        z-index: 8;
+        padding:10em 7em 0em 9em;
+        color:#000;
+        text-align: right;
+        z-index:8;
+      }
+    }
+
 
   .team{
   	position: relative;
@@ -910,7 +1163,7 @@ margin-top:30vh!important;
 
   font-size: .9em;
   	line-height: 1.6;
-    text-transform: uppercase;
+
     font-family:'montserratlight';
 
     hyphens: none;
@@ -928,6 +1181,7 @@ margin-top:30vh!important;
   			margin-bottom: 150px;
         width:50vw;
         right:0;
+        top:100px!important;
        float: left;
         overflow:hidden;
         z-index: 8;
@@ -1060,6 +1314,27 @@ float: right;
       text-align: center;
     }
 
+    .wrap-tempos{
+    	.tempos{
+
+    		margin-left: 3em!important;
+    		margin-top: 0em;
+    		width: 80%;
+    		float:left;
+    		text-align: left;
+    		display: block;
+
+    	}
+    	h1{
+
+    		font-family: 'Bebas bold';
+    		margin-bottom: .5em;
+    		font-size: 4em!important;
+    		width:90%!important;
+    		line-height: 1em;
+    	}
+    }
+
   #posso-participar{
   	 margin: 0px 0!important;
      .quem-somos{
@@ -1088,7 +1363,7 @@ float: right;
 padding-bottom:50px;
       font-size: .8em!important;
         line-height: 1.6;
-        text-transform: uppercase;
+
         font-family:'montserratlight';
 
         hyphens: none;
