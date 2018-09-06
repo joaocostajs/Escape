@@ -3132,7 +3132,7 @@ p {
   float: left;
 }
 .aboutUs p {
-  margin: 0px auto;
+  margin: 10vh auto;
   width: 55%;
   min-width: 700px;
   letter-spacing: 1.6px;
@@ -4061,6 +4061,16 @@ p {
     background-size: cover;
   }
 
+  .quem .cor-left-2 {
+    width: 70vw !important;
+    left: 3em !important;
+    top: -65vh !important;
+    float: left;
+    overflow: hidden;
+    z-index: 8;
+    padding: 70px 0 0 20px !important;
+  }
+
   #melhores-tempos {
     margin: 0px 0 !important;
     bottom: 700px;
@@ -4095,11 +4105,11 @@ p {
     z-index: 8;
   }
 
-  .cenas .cor-left-4 {
+  #explicaçao .cenas .cor-left-4 {
     width: 100vw;
     padding: 0;
   }
-  .cenas .cor-left-2 {
+  #explicaçao .cenas .cor-left-2 {
     position: relative;
     background-color: #2FAC66;
     height: auto;
@@ -4114,7 +4124,7 @@ p {
     text-align: left;
     z-index: 8;
   }
-  .cenas .cor-left-2 p {
+  #explicaçao .cenas .cor-left-2 p {
     font-family: 'Bebas bold';
     margin-bottom: .5em;
     font-size: 1.4em !important;
@@ -4123,14 +4133,14 @@ p {
     color: white;
     text-align: left;
   }
-  .cenas .cor-left-3 {
+  #explicaçao .cenas .cor-left-3 {
     position: relative;
     background-color: #2FAC66;
     height: auto;
     width: 80vw !important;
     right: 0 !important;
     top: -65vh !important;
-    float: right;
+    float: right !important;
     overflow: hidden;
     z-index: 8;
     padding: 150px 0 0 20px !important;
@@ -4138,7 +4148,7 @@ p {
     text-align: left;
     z-index: 8;
   }
-  .cenas .cor-left-3 p {
+  #explicaçao .cenas .cor-left-3 p {
     font-family: 'Bebas bold';
     margin-bottom: .5em;
     font-size: 1.4em !important;
@@ -4246,7 +4256,7 @@ p {
     min-width: 200px;
   }
   .aboutUs p {
-    margin: 150px auto !important;
+    margin: 30vh auto !important;
     min-width: 270px;
     font-size: .7em;
     letter-spacing: 1px;
@@ -5133,7 +5143,7 @@ section {
   top: 15vh;
   overflow: hidden;
   z-index: 8;
-  padding: 6em 7em 0em 6em;
+  padding: 8em 7em 0em 6em;
   color: #000;
   text-align: left;
   z-index: 8;

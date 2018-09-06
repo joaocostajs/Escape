@@ -442,7 +442,7 @@ margin-top:50px;
 
 
   p{
-margin: 0px auto;
+margin: 10vh auto;
 
     width: 55%;
     min-width: 700px;
@@ -1219,6 +1219,7 @@ margin-top:30vh!important;
           background-color:rgba(196,186,60,.8);
           height:auto;
           width:80vw;
+
           right:0!important;
           top:15vh;
           overflow:hidden;
@@ -1448,6 +1449,18 @@ padding-bottom:50px;
   			}
 
 }
+
+.quem .cor-left-2 {
+    width: 70vw!important;
+    left: 3em!important;
+    top: -65vh!important;
+    float: left;
+    overflow: hidden;
+    z-index: 8;
+    padding: 70px 0 0 20px!important;
+}
+
+
 #melhores-tempos{
 	 margin: 0px 0!important;
    bottom:700px;
@@ -1487,6 +1500,9 @@ padding-bottom:50px;
     text-align: right;
     z-index: 8;
 }
+#explicaçao{
+
+
 .cenas{
 .cor-left-4{
   width:100vw;
@@ -1525,7 +1541,7 @@ padding-bottom:50px;
     width: 80vw!important;
     right: 0!important;
     top: -65vh!important;
-    float:right;
+    float: right!important;
     overflow: hidden;
     z-index: 8;
     padding: 150px 0 0 20px!important;
@@ -1543,7 +1559,8 @@ padding-bottom:50px;
     }
 
 }
-}
+}}
+
 
   .title-text{
   font-size: .6em;
@@ -1653,7 +1670,7 @@ font-family: "bebas regular";
 
   p{
 
-    margin: 150px auto!important;
+    margin: 30vh auto!important;
     min-width: 270px;
     font-size: .7em;
     letter-spacing: 1px;
