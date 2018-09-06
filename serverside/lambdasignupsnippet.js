@@ -43,16 +43,16 @@ if(body.service){
 
     var main = {
       from: 'Lim9 <info@lim9.com>',
-      to: equivalencia[anythingiwant].mainto,
+      to: equivalencia[body.anythingiwant].mainto,
       subject: equivalencia[anythingiwant].mainsubject,
-      html: body.main.damessage;
+      html: body.main.damessage
     };
 
     var client = {
       from: equivalencia[anythingiwant].clientfrom,
       to: body.client.datofield,
       subject: equivalencia[anythingiwant].clientsubject,
-      html: body.client.damessage;
+      html: body.client.damessage
     };
 
   }
