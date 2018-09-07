@@ -559,11 +559,13 @@ var mandaform = function(things){
             $(element).addClass('invalid');
             $(element).parent().velocity("callout.shake");
             console.log("NAO TEM COISAS!");
+            $('.submit').removeClass("processing");
           }else if($(element).val() == "" || $(element).val() == " " || $(element).val() == "  " || $(element).val() == "   "){
             doit = false;
             $(element).addClass('invalid');
             $(element).parent().velocity("callout.shake");
             console.log("NAO TEM COISAS!");
+            $('.submit').removeClass("processing");
           }
         });
 
@@ -601,6 +603,7 @@ var mandaform = function(things){
 
         //var doit = false;//comentar depois
         console.log("enviar??");
+        console.log(doit);
         if(doit){
           $('.submit').addClass("processar");
           if(lb9lang=="PT"){
