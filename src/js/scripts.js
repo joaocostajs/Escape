@@ -158,8 +158,8 @@ function openFill() {
          $(".telem, .telem2, .telem3, .telem4").css("padding-left", 10 );
          $(".dataNascimento, .dataNascimento2, .dataNascimento3, .dataNascimento4").css("padding-left", 10 );
          $(".responsa").css("padding-left", 10 );
-         $(".responsamail").css("padding-left", 50 );
-         $(".datapre, .horapre").css("padding-left", 40 );
+         $(".responsamail").css("padding-left", 10 );
+         $(".datapre, .horapre").css("padding-left", 10 );
      }else{
         $(".teamName").css("padding-left", $(".bosta").width()+ 40 );
         $(".membros, .membros2, .membros3, .membros4").css("padding-left", $(".member").width()+ 40 );
@@ -167,8 +167,8 @@ function openFill() {
         $(".telem, .telem2, .telem3, .telem4").css("padding-left", $(".phone").width()+ 40 );
         $(".dataNascimento, .dataNascimento2, .dataNascimento3, .dataNascimento4").css("padding-left", $(".born").width()+ 40 );
         $(".responsa").css("padding-left", $(".master").width()+ 40 );
-        $(".responsamail").css("padding-left", $(".master").width()+ 85 );
-        $(".datapre, .horapre").css("padding-left", $(".master").width()+ 75 );
+        $(".responsamail").css("padding-left", $(".masteremail").width()+ 40 );
+        $(".datapre, .horapre").css("padding-left", $(".pres").width()+ 40 );
 
 
   }  },700);
